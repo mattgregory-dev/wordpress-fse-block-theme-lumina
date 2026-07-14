@@ -1,0 +1,16 @@
+# Auto-normalize text files to LF on commit, regardless of OS.
+* text=auto eol=lf
+
+# Explicit binary types (prevents git from treating them as text and
+# attempting line-ending normalization on file content).
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.woff  binary
+*.woff2 binary
+*.ttf  binary
+*.eot  binary
+*.otf  binary
