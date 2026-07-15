@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large","textColor":"muted"} -->
-<p class="has-muted-color has-text-color has-large-font-size">You know yourself better than anyone. You've read the books, attended the workshops, sat with the hard questions. And still, in the moments that matter, the same pattern takes over — the one you swore you were past. Lumina is a five-day retreat in Sedona for breaking through what holds you back.</p>
+<p class="has-muted-color has-text-color has-large-font-size">You know yourself better than anyone. You've read the books, attended the workshops, and sat with the hard questions. Yet when you look at your life, the same patterns are there, they quietly take hold — the ones you thought you had already moved beyond, and your suffering continues. Lumina Retreats are designed to help you see beyond those limitations, uncover what is truly driving them, and step into a deeper level of freedom, clarity, and authentic transformation.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
@@ -34,16 +34,14 @@
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size">Or call (928) 421-7663</p>
+<p class="has-muted-color has-text-color has-small-font-size">Or text or call us at <a href="tel:9284217663">(928) 421-7663</a> — we'll get right back to you.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:group {"style":{"dimensions":{"minHeight":"440px"},"border":{"radius":"14px"}},"backgroundColor":"surface","layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-<div class="wp-block-group has-surface-background-color has-background" style="border-radius:14px;min-height:440px"><!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"small"} -->
-<p class="has-text-align-center has-muted-color has-text-color has-small-font-size">Photo — Sedona landscape</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-vertical.webp' ) ); ?>" alt=""/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->

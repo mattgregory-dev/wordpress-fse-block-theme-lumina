@@ -37,11 +37,9 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%"><!-- wp:group {"style":{"dimensions":{"minHeight":"440px"},"border":{"radius":"14px"}},"backgroundColor":"surface","layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-<div class="wp-block-group has-surface-background-color has-background" style="border-radius:14px;min-height:440px"><!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"small"} -->
-<p class="has-text-align-center has-muted-color has-text-color has-small-font-size">Photo — calm, everyday-life moment / integration, not ceremony</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-vertical.webp' ) ); ?>" alt=""/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->

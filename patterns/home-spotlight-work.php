@@ -11,11 +11,9 @@
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:group {"style":{"dimensions":{"minHeight":"400px"},"border":{"radius":"14px"}},"backgroundColor":"surface","layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
-<div class="wp-block-group has-surface-background-color has-background" style="border-radius:14px;min-height:400px"><!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"small"} -->
-<p class="has-text-align-center has-muted-color has-text-color has-small-font-size">Photo — ceremony space, quiet and reverent</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-vertical.webp' ) ); ?>" alt=""/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"55%"} -->

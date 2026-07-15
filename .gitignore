@@ -21,4 +21,4 @@ pnpm-debug.log*
 .claude/settings.local.json
 
 src/public/
-images/
+/images/
