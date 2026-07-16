@@ -9,8 +9,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","backgroundColor":"surface","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Learn More</h2>
+<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Learn More</h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"},"blockGap":{"left":"var:preset|spacing|40"}}}} -->
@@ -19,8 +19,8 @@
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-vertical.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Our Story</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Our Story</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -37,8 +37,8 @@
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-vertical.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Care &amp; Safety</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Care &amp; Safety</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -55,8 +55,8 @@
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-vertical.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">What We Believe</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What We Believe</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->

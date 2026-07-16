@@ -35,6 +35,7 @@
     },
     "typography": {
       "customFontSize": true,
+      "defaultFontSizes": false,
       "dropCap": false,
       "lineHeight": true,
       "fluid": true,
@@ -61,12 +62,14 @@
         { "slug": "mono", "name": "Mono", "fontFamily": "ui-monospace, SFMono-Regular, Menlo, monospace" }
       ],
       "fontSizes": [
-        { "slug": "small",   "name": "Small",   "size": "0.875rem" },
-        { "slug": "medium",  "name": "Medium",  "size": "1rem" },
-        { "slug": "large",   "name": "Large",   "size": "1.375rem", "fluid": { "min": "1.25rem", "max": "1.375rem" } },
-        { "slug": "x-large", "name": "X-Large", "size": "2rem",     "fluid": { "min": "1.75rem", "max": "2.25rem" } },
-        { "slug": "xx-large","name": "XX-Large","size": "3rem",     "fluid": { "min": "2.25rem", "max": "3.25rem" } },
-        { "slug": "huge",    "name": "Huge",    "size": "4rem",     "fluid": { "min": "2.75rem", "max": "5rem" } }
+        { "slug": "xx-small", "name": "XX Small", "size": "0.75rem",   "fluid": false },
+        { "slug": "x-small",  "name": "X Small",  "size": "0.875rem",  "fluid": false },
+        { "slug": "small",    "name": "Small",    "size": "1rem",      "fluid": false },
+        { "slug": "medium",   "name": "Medium",   "size": "1.125rem",  "fluid": false },
+        { "slug": "large",    "name": "Large",    "size": "1.3125rem", "fluid": false },
+        { "slug": "x-large",  "name": "X Large",  "size": "1.625rem",  "fluid": false },
+        { "slug": "xx-large", "name": "XX Large", "size": "2.625rem",  "fluid": { "min": "2rem", "max": "2.625rem" } },
+        { "slug": "huge",     "name": "Huge",     "size": "3.25rem",   "fluid": { "min": "2.5rem", "max": "3.25rem" } }
       ]
     },
     "layout": {
@@ -112,9 +115,9 @@
           "lineHeight": "1.15"
         }
       },
-      "h1": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" } },
-      "h2": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" } },
-      "h3": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+      "h1": { "typography": { "fontSize": "var(--wp--preset--font-size--huge)", "lineHeight": "1.1" } },
+      "h2": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)", "lineHeight": "1.15" } },
+      "h3": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)", "lineHeight": "1.25" } },
       "link": {
         "color": { "text": "var(--wp--preset--color--primary)" },
         "typography": { "textDecoration": "underline" },

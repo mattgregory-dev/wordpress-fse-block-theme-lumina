@@ -9,12 +9,12 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","backgroundColor":"surface","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"760px"}} -->
-<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-text-align-center has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Who This Is For</p>
+<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-text-align-center has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Who This Is For</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">For People Who've Tried All the Things and Keep Getting the Same Results</h2>
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">For People Who've Tried All the Things and Keep Getting the Same Results</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"large","textColor":"muted"} -->

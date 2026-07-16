@@ -11,16 +11,16 @@
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"55%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Sedona, Arizona · January 2027</p>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Sedona, Arizona · January 2027</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":1,"fontSize":"xx-large"} -->
-<h1 class="wp-block-heading has-xx-large-font-size">You Know Your Patterns Better Than Anybody. Finally Break Free of Them.</h1>
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">You Know Your Patterns Better Than Anybody. Finally Break Free of Them.</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large","textColor":"muted"} -->
-<p class="has-muted-color has-text-color has-large-font-size">You've already done a tremendous amount of work. You've gained insight, learned valuable tools, and experienced moments of real growth. Yet there may still be something beneath the surface — a deeper pattern, wound, or unconscious belief that continues to shape your life and limit lasting change.</p>
+<p class="has-muted-color has-text-color">You've already done a tremendous amount of work. You've gained insight, learned valuable tools, and experienced moments of real growth. Yet there may still be something beneath the surface — a deeper pattern, wound, or unconscious belief that continues to shape your life and limit lasting change.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -41,8 +41,8 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size">Or text or call us at (928) 421-7663 — we'll get right back to you.</p>
+<!-- wp:paragraph {"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size">Or text or call us at (928) 421-7663 — we'll get right back to you.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 

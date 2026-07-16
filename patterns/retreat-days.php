@@ -9,8 +9,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","backgroundColor":"surface","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">The Lumina Retreat Experience</h2>
+<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">The Lumina Retreat Experience</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"large"} -->
@@ -23,12 +23,12 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
 <div class="wp-block-group"><!-- wp:group {"backgroundColor":"background","style":{"border":{"radius":"14px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 1</p>
+<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 1</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Arrival, Welcome Dinner &amp; Opening Circle</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Arrival, Welcome Dinner &amp; Opening Circle</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -37,12 +37,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"backgroundColor":"background","style":{"border":{"radius":"14px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 2</p>
+<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 2</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Preparation &amp; First Ceremony</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Preparation &amp; First Ceremony</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -51,12 +51,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"backgroundColor":"background","style":{"border":{"radius":"14px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 3</p>
+<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 3</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">First Integration &amp; 4-E Process</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">First Integration &amp; 4-E Process</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -65,12 +65,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"backgroundColor":"background","style":{"border":{"radius":"14px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 4</p>
+<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 4</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Nature, Reflection &amp; Second Ceremony</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Nature, Reflection &amp; Second Ceremony</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -79,12 +79,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"backgroundColor":"background","style":{"border":{"radius":"14px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 5</p>
+<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 5</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Second Integration &amp; 4-E Process</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Second Integration &amp; 4-E Process</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -93,12 +93,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"backgroundColor":"background","style":{"border":{"radius":"14px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 6</p>
+<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 6</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Final Ceremony</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Final Ceremony</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -107,12 +107,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"backgroundColor":"background","style":{"border":{"radius":"14px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 7</p>
+<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 7</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Final Integration, 4-E Process &amp; Closing Circle</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Final Integration, 4-E Process &amp; Closing Circle</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -121,12 +121,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"backgroundColor":"background","style":{"border":{"radius":"14px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 8</p>
+<div class="wp-block-group has-background-background-color has-background" style="border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Day 8</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Departure</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Departure</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->

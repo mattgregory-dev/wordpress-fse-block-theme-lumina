@@ -9,8 +9,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","backgroundColor":"surface","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Your Place at the Retreat</h2>
+<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Your Place at the Retreat</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"muted","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
@@ -19,20 +19,20 @@
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"backgroundColor":"background","style":{"border":{"radius":"14px","width":"2px","color":"var:preset|color|primary"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|lifted"}} -->
-<div class="wp-block-column has-background-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--primary);border-width:2px;border-radius:14px;box-shadow:var(--wp--preset--shadow--lifted);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.1em"},"border":{"radius":"999px","width":"1px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"12px","right":"12px"}}},"borderColor":"primary","textColor":"primary","fontSize":"small"} -->
-<p class="has-border-color has-primary-border-color has-primary-color has-text-color has-small-font-size" style="border-width:1px;border-radius:999px;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px;text-transform:uppercase;letter-spacing:0.1em">Most guests choose this</p>
+<div class="wp-block-column has-background-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--primary);border-width:2px;border-radius:14px;box-shadow:var(--wp--preset--shadow--lifted);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.1em"},"border":{"radius":"999px","width":"1px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"12px","right":"12px"}}},"borderColor":"primary","textColor":"primary","fontSize":"x-small"} -->
+<p class="has-border-color has-primary-border-color has-primary-color has-text-color has-x-small-font-size" style="border-width:1px;border-radius:999px;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px;text-transform:uppercase;letter-spacing:0.1em">Most guests choose this</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">With Medicine</h3>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">With Medicine</h3>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":2,"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size">$6,000</h2>
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">$6,000</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size">per person, all-inclusive</p>
+<!-- wp:paragraph {"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size">per person, all-inclusive</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -73,16 +73,16 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"backgroundColor":"background","style":{"border":{"radius":"14px","width":"1px","color":"var:preset|color|border"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"}} -->
-<div class="wp-block-column has-background-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--border);border-width:1px;border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Without Medicine</h3>
+<div class="wp-block-column has-background-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--border);border-width:1px;border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Without Medicine</h3>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":2,"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-xx-large-font-size">$4,000</h2>
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">$4,000</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size">per person, all-inclusive</p>
+<!-- wp:paragraph {"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size">per person, all-inclusive</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
@@ -123,7 +123,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"small","style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
-<p class="has-text-align-center has-muted-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--40)">A $500 non-refundable deposit secures your place. The balance is due one week before the retreat. If you pay in full and must cancel, we refund your payment minus the $500 deposit. Travel to Sedona is not included.</p>
+<!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"x-small","style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
+<p class="has-text-align-center has-muted-color has-text-color has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--40)">A $500 non-refundable deposit secures your place. The balance is due one week before the retreat. If you pay in full and must cancel, we refund your payment minus the $500 deposit. Travel to Sedona is not included.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

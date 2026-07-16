@@ -11,12 +11,12 @@
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Our Next Retreat</p>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Our Next Retreat</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-x-large-font-size">Seven Days in Sedona — January 2027</h2>
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Seven Days in Sedona — January 2027</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->

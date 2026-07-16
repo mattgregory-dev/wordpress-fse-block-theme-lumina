@@ -17,12 +17,12 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top","width":"58%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:58%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"small"} -->
-<p class="has-muted-color has-text-color has-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">When Emotion Surfaces</p>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:58%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
+<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">When Emotion Surfaces</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-x-large-font-size">You're Never Alone in the Process</h2>
+<!-- wp:heading -->
+<h2 class="wp-block-heading">You're Never Alone in the Process</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
