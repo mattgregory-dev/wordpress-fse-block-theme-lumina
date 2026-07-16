@@ -32,6 +32,6 @@
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"small"} -->
-<p class="has-text-align-center has-muted-color has-text-color has-small-font-size">Or call (928) 421-7663</p>
+<p class="has-text-align-center has-muted-color has-text-color has-small-font-size">Or text or call us at (928) 421-7663 — we'll get right back to you.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

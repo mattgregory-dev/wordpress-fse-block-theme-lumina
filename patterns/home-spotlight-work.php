@@ -22,11 +22,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-x-large-font-size">The Medicine Opens the Door. The Real Work Begins There.</h2>
+<h2 class="wp-block-heading has-x-large-font-size">Medicine Opens the Door. Then the Real Work Begins.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">Sacred plant medicine can do something almost nothing else can: it shows you, directly, that there's far more to you and to life than the day-to-day surface of labels, roles, and routine. You don't need any background or practice to feel it. That opening alone can be profound, and for some it's the whole reason they come. But an open door is not the same as walking through it. Most people get the experience and little else — a powerful night that fades back into the old life. Real, lasting change comes from what you do while that door is open: meeting the pattern at its root, where it truly lives, and integrating the work so it takes hold. That's what we're built for.</p>
+<p class="has-muted-color has-text-color">Sacred plant medicine can do something almost nothing else can: it shows you, directly, that there's far more to you and to life than the day-to-day surface of labels, roles, and habits. You don't need any self-help background or practice to experience it. For many people the medicine alone can be a profound experience, and for some it's the whole reason they come.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"muted"} -->
+<p class="has-muted-color has-text-color">But an open door is not the same as walking through it. Most people get the experience and little else — a powerful night that fades back into the old life. Real, lasting change comes from what you do while that door is open: meeting the pattern at its root, where it truly lives, and integrating the work so it takes hold. That's what we're built for. And that's you taking responsibility for your life.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->

@@ -30,7 +30,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">Often referred to as Grandmother Ayahuasca, the medicine carries a wisdom that can feel both deeply compassionate and uncompromisingly honest. It has a way of showing us exactly what we need to see, not always what we expect to see. For many, the experience opens the door to a deeper understanding of themselves, their relationships, their purpose, and the interconnected nature of life itself.</p>
+<p class="has-muted-color has-text-color">Often referred to as Grandmother Ayahuasca, the medicine carries a wisdom that can feel both deeply compassionate and uncompromisingly honest. It has a way of showing us exactly what we need to see, not always what we expect to see. For many, the experience opens the door to a deeper understanding of themselves, their relationships, their purpose, and the interconnected nature of life itself. Along the way, there can be moments of profound beauty, clarity, healing, and unexpected grace.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->

@@ -16,11 +16,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-x-large-font-size">Five Days in Sedona — January 2027</h2>
+<h2 class="wp-block-heading has-x-large-font-size">Seven Days in Sedona — January 2027</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">A small group, a private home, and five days dedicated entirely to your healing. Guided ceremony, the full 4-E process, clean food, and the space to do the work without the noise of everyday life. Two paths to attend, with and without medicine.</p>
+<p class="has-muted-color has-text-color">Nestled in the heart of the stunning Verde Valley, just a short drive from Sedona's iconic red rocks, Lumina offers a beautiful retreat center designed to support deep healing and transformation. Surrounded by nature and situated near the flowing waters of the Verde River, the center features comfortable private and shared accommodations, thoughtfully designed guest rooms, spacious gathering areas, and a welcoming kitchen where nourishing meals are prepared.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"muted"} -->
+<p class="has-muted-color has-text-color">With a small group of participants, Lumina creates an intimate and supportive environment where each guest is truly seen and cared for. Guided ceremonies, the 4-E Process, wholesome organic food, and the natural beauty of the land come together to create the ideal container for profound inner work. Free from the distractions and demands of everyday life, guests are invited to slow down, reconnect, and fully dedicate themselves to their healing journey.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"muted"} -->
+<p class="has-muted-color has-text-color">Whether attending with or without medicine, Lumina offers two distinct paths toward greater clarity, freedom, and lasting transformation within a safe, sacred, and professionally held environment.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->

@@ -32,6 +32,10 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"muted"} -->
+<p class="has-muted-color has-text-color">This four-week period allows the nervous system to settle, insights to mature, and new perspectives to become embodied realities rather than fleeting experiences. It provides the structure, accountability, and guidance needed to transform powerful moments of clarity into meaningful and lasting change.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"muted"} -->
 <p class="has-muted-color has-text-color">Most importantly, the 4-E Process is yours to keep. It becomes a lifelong framework for self-discovery, emotional healing, and conscious growth — a practical tool you can return to again and again whenever life presents new challenges, opportunities, or invitations to evolve.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
