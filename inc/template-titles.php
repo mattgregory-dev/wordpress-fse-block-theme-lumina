@@ -42,6 +42,10 @@ function theme_custom_template_labels() {
 			__( 'Care Protocol', 'lumina-blocks' ),
 			__( 'Screening, preparation, and how guests are supported.', 'lumina-blocks' ),
 		),
+		'page-apply'         => array(
+			__( 'Apply', 'lumina-blocks' ),
+			__( 'The application page — steps, the Forminator form, and an alternative-path CTA.', 'lumina-blocks' ),
+		),
 	);
 }
 
