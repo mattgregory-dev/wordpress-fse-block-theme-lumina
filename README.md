@@ -26,6 +26,20 @@ Priority order — always reach for the highest one that can do the job:
    keyframe animations, JS-state styling. Reference `var(--wp--preset--*)`;
    never redefine tokens here.
 
+**`theme.json` `styles.css` vs `src/style.scss` — where a raw CSS rule goes.**
+`theme.json` has a `styles.css` string (currently a base `img` reset and a grid
+`min-width:0` fix). Global **structural resets that must also apply inside the
+editor canvas** live there, not in the SCSS layer, because `styles.css` is
+injected into both the front end *and* the editor automatically — alongside the
+`--wp--preset--*` variables (correct cascade position), with no build step and no
+separate editor enqueue. `src/style.scss` only loads where it's enqueued and only
+after `npm run build`. So: **foundational resets that need editor parity →
+`theme.json` `styles.css`; anything with real CSS logic (pseudo-elements,
+`:has()`, keyframes, state) → `src/style.scss`.** The `styles.css` string is raw
+CSS in JSON (no nesting, not stylelint-covered) — once it grows past a handful of
+one-liners, that's the signal to move it into the SCSS layer with an editor
+enqueue.
+
 ## Structure
 
 ```

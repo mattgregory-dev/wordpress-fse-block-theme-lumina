@@ -90,6 +90,7 @@
     }
   },
   "styles": {
+    "css": "img{max-width:100%;height:auto}",
     "color": {
       "background": "var(--wp--preset--color--background)",
       "text": "var(--wp--preset--color--body)"
