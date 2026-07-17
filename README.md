@@ -39,6 +39,7 @@ lumina-blocks/
 ├── patterns/            # hero, feature-columns, cta  (composed into front-page)
 ├── inc/                 # Self-contained PHP modules
 ├── src/                 # style.scss (escape hatch) + main.js (fonts)
+├── scripts/             # Dev tooling (block-audit.js)
 └── ...                  # vite.config.js, package.json, lint configs
 ```
 
@@ -46,12 +47,25 @@ lumina-blocks/
 
 ```bash
 npm install
-npm run dev        # Vite dev server on :5175 (HMR)
-npm run build      # Vite build + compile src/style.scss -> dist/assets/main.css (autoprefixed)
-npm run lint       # eslint + stylelint + phpcs
+npm run dev          # Vite dev server on :5175 (HMR)
+npm run build        # Vite build + compile src/style.scss -> dist/assets/main.css (autoprefixed)
+npm run lint         # eslint + stylelint + phpcs + block-grammar audit
+npm run lint:blocks  # block-grammar audit on its own (patterns/, templates/, parts/)
 ```
 
 For live dev, add `define('CUSTOM_WP_VITE_DEV', true);` to `wp-config.php`.
+
+### Block-grammar audit (`lint:blocks`)
+
+`scripts/block-audit.js` stack-parses every `<!-- wp:x -->` / `<!-- /wp:x -->`
+comment in `patterns/`, `templates/`, and `parts/` and fails (exit 1) on any
+unclosed or mismatched block. Self-closing blocks (`... /-->`) are ignored.
+
+Why it exists: a single missing block closer serializes as valid HTML but breaks
+the block tree, so it stays invisible until the editor loads the file and throws
+**"This block contains unexpected or invalid content."** The audit catches it at
+the terminal instead. It runs as part of `npm run lint`; it is **not** a
+pre-commit hook (deliberately — run it on demand).
 
 ## Fonts
 
@@ -60,6 +74,39 @@ Lato + Marcellus are **self-hosted** (`assets/fonts/*.woff2`) and registered in
 canvas, and lists them in the Font Library — no JS font imports, no CDN calls.
 To add a family: drop the woff2 in `assets/fonts/` and add a `fontFace` entry to
 the matching `settings.typography.fontFamilies` item.
+
+## Development gotchas (WordPress caching)
+
+Block themes edit as flat files, but WordPress caches a lot of what it derives
+from those files in the database. Several times during the build a change to a
+file "didn't take" — every instance traced back to a stale cache, not a bad edit.
+Reach for these before assuming the file is wrong:
+
+- **New/edited patterns render blank or stale.** Registered patterns are cached
+  in transients. After adding or changing a `patterns/*.php` file, flush them:
+  `wp transient delete --all` (or SQL:
+  `DELETE FROM wp_options WHERE option_name LIKE '_transient_%' OR option_name LIKE '_site_transient_%';`).
+- **theme.json changes don't show up.** The Site Editor writes user
+  customizations to a `wp_global_styles` custom post in the DB, and **that copy
+  overrides the theme.json file**. If a color/type/spacing change to `theme.json`
+  is ignored, it's because a saved Global Styles record is winning. Reset it in
+  the editor (**Styles → Revert to theme defaults / Reset**) or clear the
+  `wp_global_styles` post for this theme. Same mechanism applies to templates and
+  template parts edited in the Site Editor — the DB version shadows the file until
+  you clear it.
+- **A new page/slug 404s, or a template won't resolve.** Rewrite rules are cached.
+  Flush after changing slugs or adding templates: `wp rewrite flush` (or delete
+  the `rewrite_rules` option and reload).
+- **General rule.** When behavior contradicts the file on disk, suspect the DB/
+  transient layer first. A full clear is `wp transient delete --all && wp rewrite flush`,
+  plus a Global Styles revert if `theme.json` is involved. (Object-cache plugins
+  or a persistent cache add another layer — `wp cache flush` — but this theme's
+  local stack doesn't use one.)
+
+> Not a cache: if a **font size** looks wrong (e.g. core's 13/20/36/42 instead of
+> the ladder), that's `settings.typography.defaultFontSizes` — it defaults to
+> `true`, which merges core's sizes on top of yours. This theme sets it to
+> `false`. See `theme.json`.
 
 ## Accessibility
 

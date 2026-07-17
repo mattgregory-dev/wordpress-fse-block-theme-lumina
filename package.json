@@ -13,7 +13,8 @@
     "lint:css:fix": "stylelint \"src/styles/**/*.scss\" \"src/style.scss\" --fix",
     "lint:php": "vendor/bin/phpcs",
     "lint:php:fix": "vendor/bin/phpcbf",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:php"
+    "lint:blocks": "node scripts/block-audit.js",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:php && npm run lint:blocks"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
