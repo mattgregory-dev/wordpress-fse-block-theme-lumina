@@ -7,6 +7,12 @@
     "scss/at-rule-no-unknown": [true, {
       "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen", "layer", "config"]
     }],
+    "custom-property-pattern": ["^([a-z][a-z0-9]*)((-{1,2})[a-z0-9]+)*$", {
+      "message": "Custom property names are kebab-case; WordPress preset vars (--wp--preset--*) use double hyphens between segments."
+    }],
+    "property-no-deprecated": [true, {
+      "ignoreProperties": ["clip"]
+    }],
     "selector-class-pattern": ["^[a-z][a-z0-9_-]*$", {
       "message": "Class names must be lowercase, may contain digits, hyphens, or underscores (underscores accommodate WordPress core classes like .current_page_item)."
     }]
