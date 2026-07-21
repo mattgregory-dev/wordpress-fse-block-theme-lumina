@@ -13,8 +13,8 @@
 <h2 class="wp-block-heading">Your Application</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">Everything you share is confidential. The more honest you can be, the better we can understand how to care for you.</p>
+<!-- wp:paragraph -->
+<p>Everything you share is confidential. The more honest you can be, the better we can understand how to care for you.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->

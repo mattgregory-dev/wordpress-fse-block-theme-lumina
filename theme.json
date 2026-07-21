@@ -11,14 +11,16 @@
       "defaultGradients": false,
       "defaultPalette": false,
       "palette": [
-        { "slug": "body",          "name": "Body",          "color": "#111111" },
+        { "slug": "body",          "name": "Body",          "color": "#374151" },
+        { "slug": "ink",           "name": "Ink",           "color": "#000000" },
         { "slug": "background",    "name": "Background",    "color": "#ffffff" },
+        { "slug": "canvas",        "name": "Canvas",        "color": "#ebf7f6" },
         { "slug": "surface",       "name": "Surface",       "color": "#f5f5f4" },
+        { "slug": "cta",           "name": "CTA Band",      "color": "#c3ddd5" },
         { "slug": "border",        "name": "Border",        "color": "#e5e7eb" },
         { "slug": "muted",         "name": "Muted",         "color": "#6b7280" },
         { "slug": "primary",       "name": "Primary",       "color": "#2563eb" },
-        { "slug": "primary-hover", "name": "Primary Hover", "color": "#1d4ed8" },
-        { "slug": "contrast",      "name": "Contrast",      "color": "#0f172a" }
+        { "slug": "primary-hover", "name": "Primary Hover", "color": "#1d4ed8" }
       ],
       "gradients": [
         { "slug": "primary-deep", "name": "Primary Deep", "gradient": "linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%)" },
@@ -92,7 +94,7 @@
   "styles": {
     "css": "img{max-width:100%;height:auto}",
     "color": {
-      "background": "var(--wp--preset--color--background)",
+      "background": "var(--wp--preset--color--canvas)",
       "text": "var(--wp--preset--color--body)"
     },
     "typography": {
@@ -128,17 +130,17 @@
       },
       "button": {
         "color": {
-          "background": "var(--wp--preset--color--primary)",
+          "background": "var(--wp--preset--color--ink)",
           "text": "var(--wp--preset--color--background)"
         },
-        "border": { "radius": "0.375rem" },
+        "border": { "width": "2px", "style": "solid", "color": "var(--wp--preset--color--ink)", "radius": "5px" },
         "spacing": {
           "padding": { "top": "0.75em", "bottom": "0.75em", "left": "1.5em", "right": "1.5em" }
         },
         "typography": { "fontWeight": "600", "textDecoration": "none" },
-        ":hover": { "color": { "background": "var(--wp--preset--color--primary-hover)" } },
-        ":focus": { "color": { "background": "var(--wp--preset--color--primary-hover)" } },
-        ":active": { "color": { "background": "var(--wp--preset--color--primary-hover)" } }
+        ":hover": { "color": { "background": "var(--wp--preset--color--background)", "text": "var(--wp--preset--color--ink)" } },
+        ":focus": { "color": { "background": "var(--wp--preset--color--background)", "text": "var(--wp--preset--color--ink)" } },
+        ":active": { "color": { "background": "var(--wp--preset--color--background)", "text": "var(--wp--preset--color--ink)" } }
       },
       "caption": {
         "color": { "text": "var(--wp--preset--color--muted)" },

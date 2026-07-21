@@ -23,8 +23,8 @@
 <h3 class="wp-block-heading">Our Story</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">The people behind Lumina, and the path that led here.</p>
+<!-- wp:paragraph -->
+<p>The people behind Lumina, and the path that led here.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -41,8 +41,8 @@
 <h3 class="wp-block-heading">Care &amp; Safety</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">How we screen, prepare, and care for every guest, before, during, and after.</p>
+<!-- wp:paragraph -->
+<p>How we screen, prepare, and care for every guest, before, during, and after.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -59,8 +59,8 @@
 <h3 class="wp-block-heading">What We Believe</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">The spirit and intention behind the medicine and the work.</p>
+<!-- wp:paragraph -->
+<p>The spirit and intention behind the medicine and the work.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

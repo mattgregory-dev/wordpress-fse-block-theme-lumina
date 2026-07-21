@@ -13,8 +13,8 @@
 <h2 class="wp-block-heading has-text-align-center">Your Place at the Retreat</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","textColor":"muted","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
-<p class="has-text-align-center has-muted-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50)">Two ways to attend. Both include the full seven-day immersion, all ceremonies, the 4-E process, lodging, meals, and aftercare.</p>
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
+<p class="has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--50)">Two ways to attend. Both include the full seven-day immersion, all ceremonies, the 4-E process, lodging, meals, and aftercare.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
@@ -31,12 +31,12 @@
 <h2 class="wp-block-heading">$6,000</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted","fontSize":"x-small"} -->
-<p class="has-muted-color has-text-color has-x-small-font-size">per person, all-inclusive</p>
+<!-- wp:paragraph {"fontSize":"x-small"} -->
+<p class="has-x-small-font-size">per person, all-inclusive</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">The full immersion with sacred plant medicine across three guided ceremonies, paired with the 4-E process.</p>
+<!-- wp:paragraph -->
+<p>The full immersion with sacred plant medicine across three guided ceremonies, paired with the 4-E process.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
@@ -81,12 +81,12 @@
 <h2 class="wp-block-heading">$4,000</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted","fontSize":"x-small"} -->
-<p class="has-muted-color has-text-color has-x-small-font-size">per person, all-inclusive</p>
+<!-- wp:paragraph {"fontSize":"x-small"} -->
+<p class="has-x-small-font-size">per person, all-inclusive</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">The full immersion and every ceremony, experienced without taking medicine — guided through the 4-E process and personal inquiry.</p>
+<!-- wp:paragraph -->
+<p>The full immersion and every ceremony, experienced without taking medicine — guided through the 4-E process and personal inquiry.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
@@ -116,14 +116,14 @@
 <!-- /wp:list -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link wp-element-button" href="/apply/">Apply</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-secondary"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-secondary"><a class="wp-block-button__link wp-element-button" href="/apply/">Apply</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"x-small","style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
-<p class="has-text-align-center has-muted-color has-text-color has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--40)">A $500 non-refundable deposit secures your place. The balance is due one week before the retreat. If you pay in full and must cancel, we refund your payment minus the $500 deposit. Travel to Sedona is not included.</p>
+<!-- wp:paragraph {"align":"center","fontSize":"x-small","style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
+<p class="has-text-align-center has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--40)">A $500 non-refundable deposit secures your place. The balance is due one week before the retreat. If you pay in full and must cancel, we refund your payment minus the $500 deposit. Travel to Sedona is not included.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

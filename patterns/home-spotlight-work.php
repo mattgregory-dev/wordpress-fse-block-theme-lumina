@@ -17,25 +17,25 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
-<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">The Work</p>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
+<p class="has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">The Work</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Medicine Opens the Door. Then the Real Work Begins.</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">Sacred plant medicine can do something almost nothing else can: it shows you, directly, that there's far more to you and to life than the day-to-day surface of labels, roles, and habits. You don't need any self-help background or practice to experience it. For many people the medicine alone can be a profound experience, and for some it's the whole reason they come.</p>
+<!-- wp:paragraph -->
+<p>Sacred plant medicine can do something almost nothing else can: it shows you, directly, that there's far more to you and to life than the day-to-day surface of labels, roles, and habits. You don't need any self-help background or practice to experience it. For many people the medicine alone can be a profound experience, and for some it's the whole reason they come.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">But an open door is not the same as walking through it. Most people get the experience and little else — a powerful night that fades back into the old life. Real, lasting change comes from what you do while that door is open: meeting the pattern at its root, where it truly lives, and integrating the work so it takes hold. That's what we're built for. And that's you taking responsibility for your life.</p>
+<!-- wp:paragraph -->
+<p>But an open door is not the same as walking through it. Most people get the experience and little else — a powerful night that fades back into the old life. Real, lasting change comes from what you do while that door is open: meeting the pattern at its root, where it truly lives, and integrating the work so it takes hold. That's what we're built for. And that's you taking responsibility for your life.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">How the Work Goes Deeper</a></div>
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"className":"is-style-secondary"} -->
+<div class="wp-block-button is-style-secondary"><a class="wp-block-button__link wp-element-button">How the Work Goes Deeper</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

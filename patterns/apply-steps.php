@@ -19,8 +19,8 @@
 <h3 class="wp-block-heading">1 · You Apply</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">Fill out the short application below. It takes a few minutes, and nothing about it commits you to anything.</p>
+<!-- wp:paragraph -->
+<p>Fill out the short application below. It takes a few minutes, and nothing about it commits you to anything.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -29,8 +29,8 @@
 <h3 class="wp-block-heading">2 · We Reach Out</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">We'll personally review what you've shared and get in touch to talk it through — your questions, your hopes, and whether this is the right time for you.</p>
+<!-- wp:paragraph -->
+<p>We'll personally review what you've shared and get in touch to talk it through — your questions, your hopes, and whether this is the right time for you.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -39,8 +39,8 @@
 <h3 class="wp-block-heading">3 · We Decide Together</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">If it's a good fit on both sides, we'll walk you through everything you need to reserve your place. If it's not, we'll be honest with you about that too.</p>
+<!-- wp:paragraph -->
+<p>If it's a good fit on both sides, we'll walk you through everything you need to reserve your place. If it's not, we'll be honest with you about that too.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>

@@ -16,7 +16,7 @@
   clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
-  word-wrap: normal !important;
+  overflow-wrap: normal !important;
 }
 
 // Reveal the skip link (and any focused sr-only control) on keyboard focus.

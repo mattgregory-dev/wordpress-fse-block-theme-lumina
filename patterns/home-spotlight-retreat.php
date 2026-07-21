@@ -11,24 +11,24 @@
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"textColor":"muted","fontSize":"x-small"} -->
-<p class="has-muted-color has-text-color has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Our Next Retreat</p>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
+<p class="has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Our Next Retreat</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Seven Days in Sedona — January 2027</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">Nestled in the heart of the stunning Verde Valley, just a short drive from Sedona's iconic red rocks, Lumina offers a beautiful retreat center designed to support deep healing and transformation. Surrounded by nature and situated near the flowing waters of the Verde River, the center features comfortable private and shared accommodations, thoughtfully designed guest rooms, spacious gathering areas, and a welcoming kitchen where nourishing meals are prepared.</p>
+<!-- wp:paragraph -->
+<p>Nestled in the heart of the stunning Verde Valley, just a short drive from Sedona's iconic red rocks, Lumina offers a beautiful retreat center designed to support deep healing and transformation. Surrounded by nature and situated near the flowing waters of the Verde River, the center features comfortable private and shared accommodations, thoughtfully designed guest rooms, spacious gathering areas, and a welcoming kitchen where nourishing meals are prepared.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">With a small group of participants, Lumina creates an intimate and supportive environment where each guest is truly seen and cared for. Guided ceremonies, the 4-E Process, wholesome organic food, and the natural beauty of the land come together to create the ideal container for profound inner work. Free from the distractions and demands of everyday life, guests are invited to slow down, reconnect, and fully dedicate themselves to their healing journey.</p>
+<!-- wp:paragraph -->
+<p>With a small group of participants, Lumina creates an intimate and supportive environment where each guest is truly seen and cared for. Guided ceremonies, the 4-E Process, wholesome organic food, and the natural beauty of the land come together to create the ideal container for profound inner work. Free from the distractions and demands of everyday life, guests are invited to slow down, reconnect, and fully dedicate themselves to their healing journey.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color">Whether attending with or without medicine, Lumina offers two distinct paths toward greater clarity, freedom, and lasting transformation within a safe, sacred, and professionally held environment.</p>
+<!-- wp:paragraph -->
+<p>Whether attending with or without medicine, Lumina offers two distinct paths toward greater clarity, freedom, and lasting transformation within a safe, sacred, and professionally held environment.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->

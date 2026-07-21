@@ -30,8 +30,8 @@
 <p class="has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.1em;font-weight:700">Start Here</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"muted"} -->
-<p class="has-muted-color has-text-color"><a href="/ayahuasca-an-ancient-medicine-for-a-modern-world/">Ayahuasca: An Ancient Medicine →</a></p>
+<!-- wp:paragraph -->
+<p><a href="/ayahuasca-an-ancient-medicine-for-a-modern-world/">Ayahuasca: An Ancient Medicine →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
