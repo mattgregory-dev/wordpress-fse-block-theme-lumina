@@ -1,4 +1,15 @@
 <?php
+/**
+ * Trim front-end cruft — block-theme (FSE) safe.
+ *
+ * Only removes things that are genuinely unused AND safe for a block theme.
+ * Notably does NOT dequeue wp-block-library / global-styles (load-bearing in
+ * FSE) and does NOT touch jQuery (Forminator needs it). Verify any addition
+ * against the rendered front end — block-theme breakage is silent.
+ *
+ * @package lumina-blocks
+ */
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
@@ -33,34 +44,8 @@ function theme_remove_generator() {
 }
 add_action( 'init', 'theme_remove_generator' );
 
-// Disable oEmbed: pasted URLs render as plain links instead of rich embeds,
-// no wp-embed JS, no discovery links advertising our oEmbed endpoint.
-function theme_disable_oembed() {
-	if ( isset( $GLOBALS['wp_embed'] ) ) {
-		remove_filter( 'the_content', array( $GLOBALS['wp_embed'], 'autoembed' ), 8 );
-	}
-	remove_action( 'wp_head', 'wp_oembed_add_discovery_links' );
-	remove_action( 'wp_head', 'wp_oembed_add_host_js' );
-	wp_deregister_script( 'wp-embed' );
-}
-add_action( 'init', 'theme_disable_oembed', 9999 );
-
-// Conditionally load core block library CSS only on singular pages whose
-// content actually contains blocks. Saves ~30KB on archives, search results,
-// and PHP-only templates.
-function theme_conditional_block_library() {
-	if ( is_singular() && has_blocks() ) {
-		return;
-	}
-	wp_dequeue_style( 'wp-block-library' );
-	wp_dequeue_style( 'wp-block-library-theme' );
-}
-add_action( 'wp_enqueue_scripts', 'theme_conditional_block_library', 100 );
-
-// Drop classic-theme-styles (default <button> styling for classic themes).
-// Our SCSS supplies button styling.
-function theme_dequeue_classic_styles() {
-	wp_dequeue_style( 'classic-theme-styles' );
-	wp_deregister_style( 'classic-theme-styles' );
-}
-add_action( 'wp_enqueue_scripts', 'theme_dequeue_classic_styles', 100 );
+// NOTE: deliberately NOT touching block CSS loading. `should_load_separate_core
+// _block_assets` (per-block CSS) was tried and DROPPED — in this WP version it
+// stops the core alignment styles (.has-text-align-center) from loading, so
+// centered blocks render left-aligned. wp-block-library is ~30KB; on a lean
+// site that is not worth risking correctness. Verified on the rendered page.
