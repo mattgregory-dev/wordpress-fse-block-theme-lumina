@@ -8,8 +8,8 @@
  * @package lumina-blocks
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","backgroundColor":"surface","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center"} -->
+<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center">Your Place at the Retreat</h2>
 <!-- /wp:heading -->
 
@@ -18,9 +18,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-columns"><!-- wp:column {"backgroundColor":"background","style":{"border":{"radius":"14px","width":"2px","color":"var:preset|color|primary"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|lifted"}} -->
-<div class="wp-block-column has-background-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--primary);border-width:2px;border-radius:14px;box-shadow:var(--wp--preset--shadow--lifted);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.1em"},"border":{"radius":"999px","width":"1px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"12px","right":"12px"}}},"borderColor":"primary","textColor":"primary","fontSize":"x-small"} -->
-<p class="has-border-color has-primary-border-color has-primary-color has-text-color has-x-small-font-size" style="border-width:1px;border-radius:999px;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px;text-transform:uppercase;letter-spacing:0.1em">Most guests choose this</p>
+<div class="wp-block-columns"><!-- wp:column {"backgroundColor":"white","style":{"border":{"radius":"14px","width":"2px","color":"var:preset|color|blue"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|lifted"}} -->
+<div class="wp-block-column has-white-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--blue);border-width:2px;border-radius:14px;box-shadow:var(--wp--preset--shadow--lifted);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.1em"},"border":{"radius":"999px","width":"1px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"12px","right":"12px"}}},"borderColor":"blue","textColor":"blue","fontSize":"x-small"} -->
+<p class="has-border-color has-blue-border-color has-blue-color has-text-color has-x-small-font-size" style="border-width:1px;border-radius:999px;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px;text-transform:uppercase;letter-spacing:0.1em">Most guests choose this</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -72,8 +72,8 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"backgroundColor":"background","style":{"border":{"radius":"14px","width":"1px","color":"var:preset|color|border"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"}} -->
-<div class="wp-block-column has-background-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--border);border-width:1px;border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3} -->
+<!-- wp:column {"backgroundColor":"white","style":{"border":{"radius":"14px","width":"1px","color":"var:preset|color|fog"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|soft"}} -->
+<div class="wp-block-column has-white-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--fog);border-width:1px;border-radius:14px;box-shadow:var(--wp--preset--shadow--soft);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Without Medicine</h3>
 <!-- /wp:heading -->
 

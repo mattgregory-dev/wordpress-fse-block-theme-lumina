@@ -31,8 +31,8 @@
 <p>Whether attending with or without medicine, Lumina offers two distinct paths toward greater clarity, freedom, and lasting transformation within a safe, sacred, and professionally held environment.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Explore the Retreat</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>

@@ -1,0 +1,23 @@
+// ---------------------------------------------------------------------------
+// Footer — dark forest band with white text.
+// Styled here rather than via block attributes so we don't hand-maintain the
+// exact WP class order for a group with background+text+className+align (a
+// common source of "invalid content"). The compiled CSS also loads in the
+// editor canvas, so the footer still renders dark there. Links need the
+// override regardless — the global link color (blue) would otherwise win.
+// ---------------------------------------------------------------------------
+
+.site-footer {
+  background-color: var(--wp--preset--color--forest);
+  color: var(--wp--preset--color--white);
+
+  a {
+    color: var(--wp--preset--color--white);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}

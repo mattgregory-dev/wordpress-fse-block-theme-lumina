@@ -23,8 +23,8 @@
 <p>You know yourself better than anyone. You've read the books, attended the workshops, and sat with the hard questions. Yet when you look at your life, the same patterns are there, they quietly take hold — the ones you thought you had already moved beyond, and your suffering continues. Lumina Retreats are designed to help you see beyond those limitations, uncover what is truly driving them, and step into a deeper level of freedom, clarity, and authentic transformation.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Explore the Retreat</a></div>
 <!-- /wp:button -->
 

@@ -18,3 +18,6 @@
 // Button style variations (is-style-secondary). The default button lives in
 // theme.json; this only styles the custom variations. See _buttons.scss.
 @use "./styles/buttons";
+
+// Footer — dark forest band with white text (region theming). See _footer.scss.
+@use "./styles/footer";

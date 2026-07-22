@@ -31,8 +31,8 @@
 <p>This is more than a retreat. It is an opportunity to finally understand what has been holding you back, release what no longer serves you, and step forward with greater freedom, clarity, and authenticity than ever before.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/apply/">Apply for the Retreat</a></div>
 <!-- /wp:button -->
 

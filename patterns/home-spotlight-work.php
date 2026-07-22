@@ -33,8 +33,8 @@
 <p>But an open door is not the same as walking through it. Most people get the experience and little else — a powerful night that fades back into the old life. Real, lasting change comes from what you do while that door is open: meeting the pattern at its root, where it truly lives, and integrating the work so it takes hold. That's what we're built for. And that's you taking responsibility for your life.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"className":"is-style-secondary"} -->
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:button {"className":"is-style-secondary"} -->
 <div class="wp-block-button is-style-secondary"><a class="wp-block-button__link wp-element-button">How the Work Goes Deeper</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>

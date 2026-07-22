@@ -14,8 +14,8 @@
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:details {"showContent":true,"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" open style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What If I Don't Want to Work With Plant Medicine?</summary><!-- wp:paragraph -->
+<div class="wp-block-group"><!-- wp:details {"showContent":true,"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" open style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What If I Don't Want to Work With Plant Medicine?</summary><!-- wp:paragraph -->
 <p>That is completely okay. At Lumina, participation in plant medicine ceremonies is encouraged, but never required if a guest is feeling apprehensive.</p>
 <!-- /wp:paragraph -->
 
@@ -40,20 +40,20 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>Where will we stay?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>Where will we stay?</summary><!-- wp:paragraph -->
 <p>On-site, together, in a private retreat center, in either a private or shared room. The retreat center is located in the Verde Valley, on the river, about 30 minutes from Sedona.</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>How do I get there?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>How do I get there?</summary><!-- wp:paragraph -->
 <p>Most guests fly into Phoenix Sky Harbor, which has the widest selection of flights — about an hour-and-a-half drive to Sedona. Flagstaff is closer, with a beautiful hour's drive down the canyon, but offers fewer flights. Travel isn't included, but we'll point you to shuttle options and directions.</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>How many guests attend each retreat?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>How many guests attend each retreat?</summary><!-- wp:paragraph -->
 <p>Lumina intentionally keeps retreat groups small (12 maximum) to ensure a more personal, supportive, and individualized experience.</p>
 <!-- /wp:paragraph -->
 
@@ -62,14 +62,14 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What's the deposit and cancellation policy?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What's the deposit and cancellation policy?</summary><!-- wp:paragraph -->
 <p>A $500 non-refundable deposit secures your place, with the balance due one week before the retreat. If you've paid in full and need to cancel, we refund your payment minus the $500 deposit.</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>Is Ayahuasca safe?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>Is Ayahuasca safe?</summary><!-- wp:paragraph -->
 <p>Safety is one of our highest priorities.</p>
 <!-- /wp:paragraph -->
 
@@ -82,8 +82,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What makes Lumina different from other retreats?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What makes Lumina different from other retreats?</summary><!-- wp:paragraph -->
 <p>Many retreats focus primarily on the ceremony experience. At Lumina, we believe the ceremony is only part of the journey.</p>
 <!-- /wp:paragraph -->
 
@@ -96,8 +96,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What if I've never done Ayahuasca before?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What if I've never done Ayahuasca before?</summary><!-- wp:paragraph -->
 <p>Many of our guests are first-time participants.</p>
 <!-- /wp:paragraph -->
 
@@ -110,8 +110,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What if I'm nervous?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What if I'm nervous?</summary><!-- wp:paragraph -->
 <p>Almost everyone feels some level of nervousness before attending.</p>
 <!-- /wp:paragraph -->
 
@@ -124,8 +124,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What happens during the ceremonies?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What happens during the ceremonies?</summary><!-- wp:paragraph -->
 <p>Each ceremony is conducted within a carefully held and intentional setting.</p>
 <!-- /wp:paragraph -->
 
@@ -138,8 +138,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What is the 4-E Elemental Wisdom Process?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What is the 4-E Elemental Wisdom Process?</summary><!-- wp:paragraph -->
 <p>The 4-E Process is Lumina's unique framework for transformation and integration.</p>
 <!-- /wp:paragraph -->
 
@@ -152,8 +152,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What is included in the four-week integration program?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What is included in the four-week integration program?</summary><!-- wp:paragraph -->
 <p>Every guest receives private sessions across four weeks of post-retreat integration support.</p>
 <!-- /wp:paragraph -->
 
@@ -166,8 +166,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What should I bring?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What should I bring?</summary><!-- wp:paragraph -->
 <p>Prior to retreat, you will receive a detailed preparation handbook and packing list.</p>
 <!-- /wp:paragraph -->
 
@@ -176,8 +176,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>How physically demanding is the retreat?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>How physically demanding is the retreat?</summary><!-- wp:paragraph -->
 <p>Not too demanding. People from ages 18 to 80 have participated in medicine journeys, and the retreat is designed to be accessible to most people.</p>
 <!-- /wp:paragraph -->
 
@@ -186,8 +186,8 @@
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
-<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"border"} -->
-<details class="wp-block-details has-border-color has-border-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What if difficult emotions arise?</summary><!-- wp:paragraph -->
+<!-- wp:details {"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<details class="wp-block-details has-border-color has-fog-border-color" style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What if difficult emotions arise?</summary><!-- wp:paragraph -->
 <p>Difficult emotions are a natural part of healing and transformation.</p>
 <!-- /wp:paragraph -->
 

@@ -20,14 +20,14 @@
 
 .wp-block-button.is-style-secondary {
   .wp-block-button__link {
-    background-color: var(--wp--preset--color--background); // white
-    color: var(--wp--preset--color--ink); // black
+    background-color: var(--wp--preset--color--white); // white
+    color: var(--wp--preset--color--black); // black
 
     &:hover,
     &:focus,
     &:active {
-      background-color: var(--wp--preset--color--ink); // black
-      color: var(--wp--preset--color--background); // white
+      background-color: var(--wp--preset--color--black); // black
+      color: var(--wp--preset--color--white); // white
     }
   }
 }
