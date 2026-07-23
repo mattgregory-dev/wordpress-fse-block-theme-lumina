@@ -1,0 +1,36 @@
+// ---------------------------------------------------------------------------
+// List style variations.
+// `is-style-checklist` — replaces the default bullet with a bordered checkbox
+// marker (✓), matching the mockup. Registered in inc/block-styles.php. The
+// marker is a ::before pseudo-element (theme.json can't express it), so it
+// lives here; all values reference theme.json tokens.
+// ---------------------------------------------------------------------------
+
+.wp-block-list.is-style-checklist {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+
+    // Bordered ✓ marker. flex-start keeps it aligned to the first text line
+    // even when an item wraps to multiple lines.
+    &::before {
+      content: "\2713";
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.4rem;
+      height: 1.4rem;
+      margin-top: 0.15em;
+      border: 1px solid var(--wp--preset--color--forest);
+      color: var(--wp--preset--color--forest);
+      font-size: 0.8em;
+      line-height: 1;
+    }
+  }
+}
