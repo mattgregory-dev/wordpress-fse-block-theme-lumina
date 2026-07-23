@@ -7,6 +7,16 @@
 // override regardless — the global link color (blue) would otherwise win.
 // ---------------------------------------------------------------------------
 
+// Remove the root block-gap above the footer so the dark band sits flush with
+// the section above. WordPress applies that gap as margin-block-start on the
+// template-part WRAPPER (the <footer class="wp-block-template-part"> that is a
+// direct child of .wp-site-blocks) via
+// :where(.wp-site-blocks) > * { margin-block-start: 1.5rem } — NOT on the inner
+// .site-footer group — so the override has to target the wrapper.
+footer.wp-block-template-part {
+  margin-block-start: 0;
+}
+
 .site-footer {
   background-color: var(--wp--preset--color--forest);
   color: var(--wp--preset--color--white);
