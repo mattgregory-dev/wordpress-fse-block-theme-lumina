@@ -12,3 +12,7 @@ if (import.meta.env.DEV) {
 // Interactions that FSE handles natively (responsive nav, etc.) live in core
 // blocks — not here. Add custom JS below only for genuinely bespoke behavior,
 // ideally via the WordPress Interactivity API.
+
+// Back-to-top button (fixed-position chrome; markup in inc/scroll-top.php).
+// JS behavior modules live in src/scripts/ (mirrors src/styles/ for SCSS).
+import "./scripts/scroll-top.js";

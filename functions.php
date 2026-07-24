@@ -15,6 +15,7 @@ $theme_inc = get_template_directory() . '/inc';
 
 require_once $theme_inc . '/theme-setup.php';
 require_once $theme_inc . '/block-styles.php';
+require_once $theme_inc . '/scroll-top.php';
 require_once $theme_inc . '/template-titles.php';
 require_once $theme_inc . '/library.php';
 require_once $theme_inc . '/enqueue.php';

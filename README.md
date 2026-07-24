@@ -52,8 +52,12 @@ lumina-blocks/
 ├── parts/               # header.html, footer.html
 ├── patterns/            # hero, feature-columns, cta  (composed into front-page)
 ├── inc/                 # Self-contained PHP modules
-├── src/                 # style.scss (escape hatch) + main.js (fonts)
-├── scripts/             # Dev tooling (block-audit.js)
+├── src/                 # Front-end source (compiled by Vite → dist/)
+│   ├── main.js          #   JS entry — imports modules from scripts/
+│   ├── style.scss       #   SCSS entry (escape-hatch layer) — imports styles/
+│   ├── scripts/         #   JS behavior modules (e.g. scroll-top.js)
+│   └── styles/          #   SCSS partials (_buttons, _lists, _footer, …)
+├── scripts/             # Node build tooling (block-audit.js) — not front-end
 └── ...                  # vite.config.js, package.json, lint configs
 ```
 
