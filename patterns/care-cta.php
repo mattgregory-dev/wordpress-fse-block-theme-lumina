@@ -32,6 +32,6 @@
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size">Or text or call us at (928) 421-7663 — we'll get right back to you.</p>
+<p class="has-text-align-center has-x-small-font-size">Or text or call us at <a href="tel:6027536573">(602) 753-6573</a> — we'll get right back to you.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

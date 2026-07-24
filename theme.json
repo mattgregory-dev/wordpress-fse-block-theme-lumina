@@ -153,7 +153,13 @@
         }
       },
       "core/post-title": {
-        "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" }
+        "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" },
+        "elements": {
+          "link": {
+            "color": { "text": "var(--wp--preset--color--body)" },
+            ":hover": { "color": { "text": "var(--wp--preset--color--dark-blue)" } }
+          }
+        }
       },
       "core/post-excerpt": {
         "color": { "text": "var(--wp--preset--color--muted)" }

@@ -6,6 +6,14 @@
 // lives here; all values reference theme.json tokens.
 // ---------------------------------------------------------------------------
 
+// Categories block (Library sidebar "Topics") — no bullets or indent, so the
+// links sit flush like the other sidebar boxes.
+.wp-block-categories {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .wp-block-list.is-style-checklist {
   list-style: none;
   padding-left: 0;

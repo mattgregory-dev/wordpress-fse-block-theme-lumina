@@ -8,8 +8,8 @@
  * @package lumina-blocks
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","backgroundColor":"sage","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
-<section class="wp-block-group alignfull has-sage-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
+<!-- wp:group {"tagName":"section","align":"full","backgroundColor":"sage","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
+<section class="wp-block-group alignfull has-sage-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);margin-top:0"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
 <p class="has-text-align-center has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">January 2027 · Sedona</p>
 <!-- /wp:paragraph -->
 
@@ -32,6 +32,6 @@
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size">Or text or call us at (928) 421-7663 — we'll get right back to you.</p>
+<p class="has-text-align-center has-x-small-font-size">Or text or call us at <a href="tel:6027536573">(602) 753-6573</a> — we'll get right back to you.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

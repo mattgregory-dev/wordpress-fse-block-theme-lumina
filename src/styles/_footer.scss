@@ -21,6 +21,13 @@ footer.wp-block-template-part {
   background-color: var(--wp--preset--color--forest);
   color: var(--wp--preset--color--white);
 
+  // Footer nav lists — drop the bullets and the default left indent.
+  .wp-block-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
   a {
     color: var(--wp--preset--color--white);
     text-decoration: none;

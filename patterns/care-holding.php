@@ -19,8 +19,8 @@
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"},"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"fontSize":"large"} -->
-<ul class="wp-block-list has-large-font-size"><!-- wp:list-item -->
+<div class="wp-block-column"><!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"is-style-checklist","fontSize":"large"} -->
+<ul class="wp-block-list is-style-checklist has-large-font-size"><!-- wp:list-item -->
 <li>A small group — no more than twelve guests — so no one is lost in the crowd</li>
 <!-- /wp:list-item -->
 
@@ -35,8 +35,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"fontSize":"large"} -->
-<ul class="wp-block-list has-large-font-size"><!-- wp:list-item -->
+<div class="wp-block-column"><!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"is-style-checklist","fontSize":"large"} -->
+<ul class="wp-block-list is-style-checklist has-large-font-size"><!-- wp:list-item -->
 <li>Grounding and support always on hand if a moment becomes intense</li>
 <!-- /wp:list-item -->
 
