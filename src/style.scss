@@ -27,3 +27,6 @@
 
 // Back-to-top button (fixed-position chrome). See _scroll-top.scss.
 @use "./styles/scroll-top";
+
+// Site logo — inline SVG wordmark (forest header / white footer). See _logo.scss.
+@use "./styles/logo";
