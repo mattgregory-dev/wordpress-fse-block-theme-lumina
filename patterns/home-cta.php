@@ -26,8 +26,8 @@
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Apply for the Retreat</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"className":"is-style-secondary book-consultation"} -->
-<div class="wp-block-button is-style-secondary book-consultation"><a class="wp-block-button__link wp-element-button">Book a Free Consultation</a></div>
+<!-- wp:button {"url":"https://calendly.com/marco-luminasedona/30min","linkTarget":"_blank","rel":"noreferrer noopener","className":"is-style-secondary book-consultation"} -->
+<div class="wp-block-button is-style-secondary book-consultation"><a class="wp-block-button__link wp-element-button" href="https://calendly.com/marco-luminasedona/30min" target="_blank" rel="noreferrer noopener">Book a Free Consultation</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
