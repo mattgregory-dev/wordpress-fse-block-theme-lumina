@@ -24,8 +24,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Explore the Retreat</a></div>
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:button {"url":"/retreat/"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/retreat/">Explore the Retreat</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"url":"https://calendly.com/marco-luminasedona/30min","linkTarget":"_blank","rel":"noreferrer noopener","className":"is-style-secondary book-consultation"} -->
