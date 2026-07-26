@@ -1,0 +1,19 @@
+// ---------------------------------------------------------------------------
+// Header responsive layout — in the tablet band (600–980px) the logo and nav
+// stack and centre, instead of the desktop logo-left / nav-right row. Below
+// 600px the nav collapses to its hamburger toggle, so we leave that alone.
+// ---------------------------------------------------------------------------
+
+@media (600px <= width <= 980px) {
+  .site-header .wp-block-group.is-layout-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // Centre the nav items (they justify right on desktop) so wrapped rows stay
+  // centred too, rather than hugging the right edge.
+  .site-header .wp-block-navigation__container.items-justified-right {
+    justify-content: center;
+  }
+}

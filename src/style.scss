@@ -19,6 +19,9 @@
 // theme.json; this only styles the custom variations. See _buttons.scss.
 @use "./styles/buttons";
 
+// Header — centered logo + nav on tablet/mobile. See _header.scss.
+@use "./styles/header";
+
 // Footer — dark forest band with white text (region theming). See _footer.scss.
 @use "./styles/footer";
 
