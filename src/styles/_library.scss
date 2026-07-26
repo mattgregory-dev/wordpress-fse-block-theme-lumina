@@ -1,0 +1,38 @@
+// ---------------------------------------------------------------------------
+// Library category links — the post-terms eyebrow above each card title and the
+// sidebar "Topics" categories drop the global underline; the link colour alone
+// marks them.
+// ---------------------------------------------------------------------------
+
+.wp-block-post-terms a,
+.wp-block-categories a {
+  text-decoration: none;
+}
+
+// Card links (category eyebrow + "Read More") — muted by default, deepening to
+// dark-blue on hover.
+.wp-block-post-terms a,
+.wp-block-post-excerpt a {
+  color: var(--wp--preset--color--muted);
+
+  &:hover,
+  &:focus {
+    color: var(--wp--preset--color--blue);
+  }
+}
+
+// Sidebar links (Topics category + Start Here) — muted, dark-blue on hover.
+.library-sidebar a {
+  color: var(--wp--preset--color--muted);
+
+  &:hover,
+  &:focus {
+    color: var(--wp--preset--color--blue);
+  }
+}
+
+// Search box — soften the corners (overflow clips the inner button to match).
+.wp-block-search__inside-wrapper {
+  border-radius: 6px;
+  overflow: hidden;
+}
