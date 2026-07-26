@@ -84,6 +84,20 @@
   }
 }
 
+// Contact page: wpautop leaves a stray <p> as the column's first child, so the
+// Forminator <form> is no longer :first-child and picks up the flow layout's
+// 1.5rem blockGap (margin-block-start) — which drops the form card below the
+// sidebar card. Collapse the stray paragraphs AND zero the form's top margin
+// directly (the real culprit) so the two card tops align.
+.contact-form-col > p {
+  margin: 0;
+  line-height: 0;
+}
+
+.contact-form-col > form {
+  margin-top: 0;
+}
+
 .forminator-ui.forminator-custom-form {
   font-family: var(--wp--preset--font-family--body) !important;
   color: var(--wp--preset--color--body) !important;
