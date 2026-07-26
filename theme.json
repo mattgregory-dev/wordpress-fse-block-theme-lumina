@@ -21,7 +21,8 @@
         { "slug": "fog",        "name": "Fog",        "color": "#e5e7eb" },
         { "slug": "muted",      "name": "Muted",      "color": "#6b7280" },
         { "slug": "blue",       "name": "Blue",       "color": "#3b82f6" },
-        { "slug": "dark-blue",  "name": "Dark Blue",  "color": "#1d4ed8" }
+        { "slug": "dark-blue",  "name": "Dark Blue",  "color": "#1d4ed8" },
+        { "slug": "error",      "name": "Error",      "color": "#a44b4b" }
       ]
     },
     "shadow": {

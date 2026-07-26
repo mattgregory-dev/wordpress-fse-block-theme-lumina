@@ -18,6 +18,6 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size">This is the first step, not a commitment. Applying simply tells us a little about you and what's bringing you to this work, so we can understand whether the retreat is the right fit. There's no pressure here — just the beginning of a conversation between you and us.</p>
+<p class="has-text-align-center has-large-font-size">This is the first step, not a commitment. Applying simply tells us about you and what's bringing you to this work, so we can understand whether the retreat is the right fit. There's no pressure here — just the beginning of a conversation between you and us.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

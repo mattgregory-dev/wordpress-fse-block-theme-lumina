@@ -1,0 +1,376 @@
+// ---------------------------------------------------------------------------
+// Forminator form styling (Apply page).
+// Forminator ships only its grid + utilities CSS (no base field styling), so
+// the whole look is defined here — ported from the old cwp theme and
+// re-tokenized to this theme's palette. Column layout (equal-width rows) comes
+// from Forminator's own grid stylesheet; the fields just need width:100% to
+// fill those columns. !important keeps us ahead of Forminator's minimal base.
+// Fields render via Forminator JS, so verify in the browser on /apply/.
+// ---------------------------------------------------------------------------
+
+// Shared button looks, used by the submit and the pagination nav buttons.
+// Primary: black fill that flips to white (via a fading ::after) on hover.
+@mixin form-button-primary($border-width: 2px) {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  cursor: pointer !important;
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  color: var(--wp--preset--color--white) !important;
+  background: var(--wp--preset--color--black) !important;
+  border: $border-width solid transparent !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  transition:
+    box-shadow 0.22s ease,
+    color 0.16s ease,
+    border-color 0.22s ease;
+
+  &::after {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: -1 !important;
+    background-color: var(--wp--preset--color--white) !important;
+    opacity: 0 !important;
+    transition: opacity 0.24s ease !important;
+  }
+
+  &:hover {
+    color: var(--wp--preset--color--black) !important;
+    border-color: var(--wp--preset--color--black) !important;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 12%) !important;
+
+    &::after {
+      opacity: 1 !important;
+    }
+  }
+
+  &:focus-visible {
+    outline: none !important;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--wp--preset--color--sage) 55%, transparent) !important;
+  }
+}
+
+// Secondary: white fill / black outline that inverts to black on hover.
+@mixin form-button-secondary($border-width: 2px) {
+  cursor: pointer !important;
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  color: var(--wp--preset--color--black) !important;
+  background: var(--wp--preset--color--white) !important;
+  border: $border-width solid var(--wp--preset--color--black) !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+
+  &:hover {
+    color: var(--wp--preset--color--white) !important;
+    background: var(--wp--preset--color--black) !important;
+  }
+
+  &:focus-visible {
+    outline: none !important;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--wp--preset--color--sage) 55%, transparent) !important;
+  }
+}
+
+.forminator-ui.forminator-custom-form {
+  font-family: var(--wp--preset--font-family--body) !important;
+  color: var(--wp--preset--color--body) !important;
+
+  .forminator-row {
+    margin-bottom: 1.25rem !important;
+  }
+
+  .forminator-col {
+    min-width: 0 !important;
+  }
+
+  // Stack each field's label above its control with a consistent gap.
+  .forminator-field {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  .forminator-label {
+    font-weight: 500 !important;
+    font-size: 0.875rem !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    color: var(--wp--preset--color--body) !important;
+  }
+
+  .forminator-checkbox-label,
+  .forminator-radio-label {
+    font-size: 1rem !important;
+    color: var(--wp--preset--color--body) !important;
+    cursor: pointer;
+  }
+
+  .forminator-required {
+    color: var(--wp--preset--color--blue) !important;
+  }
+
+  .forminator-input,
+  .forminator-textarea,
+  select.forminator-select {
+    width: 100% !important;
+    border: 1px solid color-mix(in srgb, var(--wp--preset--color--muted) 55%, transparent) !important;
+    border-radius: 0.5rem !important;
+    padding: 0.75rem 1rem !important;
+    background: var(--wp--preset--color--white) !important;
+    color: var(--wp--preset--color--body) !important;
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+    box-shadow: none !important;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease,
+      background-color 0.2s ease;
+
+    &::placeholder {
+      color: color-mix(in srgb, var(--wp--preset--color--muted) 70%, transparent) !important;
+    }
+
+    &:hover {
+      border-color: var(--wp--preset--color--muted) !important;
+      background: var(--wp--preset--color--fog) !important;
+    }
+
+    // White on focus for maximum text contrast while typing — focus itself is
+    // signalled by the forest border + sage ring, so the fill needn't darken.
+    &:focus-visible {
+      outline: none !important;
+      border-color: var(--wp--preset--color--forest) !important;
+      background: var(--wp--preset--color--white) !important;
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--wp--preset--color--sage) 50%, transparent) !important;
+    }
+  }
+
+  .forminator-textarea {
+    min-height: 140px !important;
+    resize: vertical !important;
+  }
+
+  // Checkbox / radio: hide the native control and style the adjacent box/bullet.
+  .forminator-checkbox,
+  .forminator-radio {
+    position: relative;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.625rem !important;
+    margin: 0.375rem 0.875rem 0.375rem 0 !important;
+    color: var(--wp--preset--color--muted) !important;
+    cursor: pointer;
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      margin: 0 !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+  }
+
+  .forminator-checkbox-box,
+  .forminator-radio-bullet {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+    border: 1px solid var(--wp--preset--color--muted) !important;
+    background: var(--wp--preset--color--white) !important;
+    transition:
+      border-color 0.2s ease,
+      background-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .forminator-checkbox-box {
+    border-radius: 0.25rem !important;
+  }
+
+  .forminator-radio-bullet {
+    border-radius: 999px !important;
+  }
+
+  .forminator-checkbox:hover .forminator-checkbox-box,
+  .forminator-radio:hover .forminator-radio-bullet {
+    border-color: var(--wp--preset--color--body) !important;
+    background: var(--wp--preset--color--fog) !important;
+  }
+
+  .forminator-checkbox input:checked + .forminator-checkbox-box,
+  .forminator-radio input:checked + .forminator-radio-bullet {
+    border-color: var(--wp--preset--color--forest) !important;
+    background: var(--wp--preset--color--forest) !important;
+  }
+
+  // The medical-conditions checklist is long, so flow its options into two
+  // columns on wider screens (keyed to the .medicalConditions1 class set on the
+  // field). Multi-column keeps the list reading top-to-bottom down each column;
+  // the group label spans both. Stays single-column on narrow screens.
+  // Both long condition checklists (medical + psychological) carry a .conditions
+  // class set on the field in Forminator — flow their options into two columns
+  // on wider screens, with the group label spanning both.
+  @media (width >= 48rem) {
+    .conditions .forminator-field {
+      display: block !important;
+      column-count: 2;
+      column-gap: 2rem;
+    }
+
+    .conditions .forminator-label {
+      display: block !important;
+      column-span: all;
+      margin-bottom: 0.75rem;
+    }
+
+    .conditions .forminator-checkbox {
+      display: flex !important;
+      margin: 0 0 0.5rem !important;
+      break-inside: avoid;
+    }
+  }
+
+  // The summary box ships empty in the markup — only render it once Forminator
+  // populates it, so there's no blank pill on initial load.
+  .forminator-response-message:empty {
+    display: none !important;
+  }
+
+  // Form-level summary (announced via role="alert"): a clearly-coloured alert
+  // so submit-time errors and the success confirmation are unmistakable.
+  .forminator-response-message {
+    border-radius: 0.75rem !important;
+    padding: 0.75rem 1rem !important;
+    font-size: 0.875rem !important;
+
+    &.forminator-error {
+      color: var(--wp--preset--color--error) !important;
+      background: color-mix(in srgb, var(--wp--preset--color--error) 12%, transparent) !important;
+      border: 1px solid color-mix(in srgb, var(--wp--preset--color--error) 45%, transparent) !important;
+    }
+
+    &.forminator-success {
+      color: var(--wp--preset--color--forest) !important;
+      background: var(--wp--preset--color--light-sage) !important;
+      border: 1px solid var(--wp--preset--color--sage) !important;
+    }
+  }
+
+  // Inline field error — plain, readable red text beneath the control.
+  .forminator-error-message {
+    color: var(--wp--preset--color--error) !important;
+    font-size: 0.8125rem !important;
+    margin-top: 0.375rem !important;
+  }
+
+  .forminator-has_error .forminator-input,
+  .forminator-has_error .forminator-textarea {
+    border-color: color-mix(in srgb, var(--wp--preset--color--error) 65%, transparent) !important;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--wp--preset--color--error) 20%, transparent) !important;
+  }
+
+  // Submit on a single-page form — full-width primary button.
+  .forminator-button.forminator-button-submit {
+    @include form-button-primary;
+
+    width: 100% !important;
+  }
+
+  // --- Pagination (multi-step forms) --------------------------------------
+  // Step indicator: a centred row of labelled dots; the current step is filled
+  // forest with a bold label. Forminator's connector-line elements
+  // (.forminator-break) are hidden for a cleaner, alignment-proof look.
+  .forminator-pagination-steps {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .forminator-break {
+    display: none !important;
+  }
+
+  .forminator-step {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    cursor: pointer;
+  }
+
+  .forminator-step-dot {
+    order: -1; // DOM order is label→dot; show the dot first
+    flex: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid var(--wp--preset--color--muted) !important;
+    border-radius: 50%;
+    background: var(--wp--preset--color--white) !important;
+  }
+
+  .forminator-step-label {
+    font-size: 0.94rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--wp--preset--color--muted) !important;
+  }
+
+  .forminator-step[aria-selected="true"] .forminator-step-dot,
+  .forminator-step.forminator-current .forminator-step-dot {
+    border-color: var(--wp--preset--color--forest) !important;
+    background: var(--wp--preset--color--forest) !important;
+  }
+
+  .forminator-step[aria-selected="true"] .forminator-step-label,
+  .forminator-step.forminator-current .forminator-step-label {
+    color: var(--wp--preset--color--body) !important;
+    font-weight: 400;
+  }
+
+  // Nav footer: Previous (secondary) on the left, Next / Send (primary) pushed
+  // right — margin-left:auto keeps Next right even when Back is hidden (page 1).
+  .forminator-pagination-footer {
+    display: flex !important;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .forminator-button.forminator-button-back {
+    @include form-button-secondary(1px);
+  }
+
+  .forminator-button.forminator-button-next,
+  .forminator-button.forminator-pagination-submit {
+    @include form-button-primary(1px);
+
+    margin-left: auto !important;
+  }
+}
+
+// Hide only Forminator's front-end admin "edit form" affordance, not anything
+// user-facing.
+.forminator-edit-module {
+  display: none;
+}

@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Fill out the short application below. It takes a few minutes, and nothing about it commits you to anything.</p>
+<p>The application takes about 15 minutes. It's thorough because we take your care seriously, and nothing about it commits you to anything.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
