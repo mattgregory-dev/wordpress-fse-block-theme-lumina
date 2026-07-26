@@ -1,0 +1,29 @@
+// ---------------------------------------------------------------------------
+// "Learn More" cards (home-learn-more pattern): centred card content, rounded
+// card images, extra breathing room above each heading, and black links that
+// deepen to dark-blue on hover (in place of the global blue link colour).
+// ---------------------------------------------------------------------------
+
+.learn-more-cards {
+  .wp-block-column {
+    text-align: center;
+  }
+
+  .wp-block-image img {
+    border-radius: 10px;
+  }
+
+  // A little more space between the image and the heading.
+  h3 {
+    margin-top: 1.25rem;
+  }
+
+  p a {
+    color: var(--wp--preset--color--black);
+
+    &:hover,
+    &:focus {
+      color: var(--wp--preset--color--dark-blue);
+    }
+  }
+}
