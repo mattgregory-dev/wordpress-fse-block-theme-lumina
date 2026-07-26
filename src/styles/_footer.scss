@@ -21,11 +21,26 @@ footer.wp-block-template-part {
   background-color: var(--wp--preset--color--forest);
   color: var(--wp--preset--color--white);
 
-  // Footer nav lists — drop the bullets and the default left indent.
+  // Footer nav lists — drop the bullets and the default left indent, and space
+  // the links out with a single flex gap (overrides the tight list block-gap).
   .wp-block-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
     list-style: none;
     padding-left: 0;
     margin-left: 0;
+  }
+
+  // Logo column: centre the mark and tagline, and keep the tagline to a tidy
+  // measure beneath the logo.
+  .wp-block-column:first-child {
+    text-align: center;
+
+    p {
+      max-width: 245px;
+      margin-inline: auto;
+    }
   }
 
   a {
