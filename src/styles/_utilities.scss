@@ -1,0 +1,16 @@
+// ---------------------------------------------------------------------------
+// Small utility classes applied via a block's className.
+// ---------------------------------------------------------------------------
+
+// Constrain a centred heading to a tighter measure than its section so it wraps
+// to a more balanced shape (Care Protocol intro).
+.care-intro-heading {
+  max-width: 644px;
+  margin-inline: auto;
+}
+
+// Constrain the Library intro lede to a tidy measure beneath the heading.
+.library-intro-lede {
+  max-width: 28rem;
+  margin-inline: auto;
+}

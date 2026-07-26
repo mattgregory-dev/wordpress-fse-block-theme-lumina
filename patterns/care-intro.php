@@ -13,8 +13,8 @@
 <p class="has-text-align-center has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Our Care Protocol</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
-<h1 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--40)">You Are Held, Every Step of the Way</h1>
+<!-- wp:heading {"textAlign":"center","level":1,"className":"care-intro-heading","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+<h1 class="wp-block-heading has-text-align-center care-intro-heading" style="margin-bottom:var(--wp--preset--spacing--40)">You Are Held, Every Step of the Way</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

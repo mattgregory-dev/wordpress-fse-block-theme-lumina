@@ -17,7 +17,7 @@
 <h1 class="wp-block-heading has-text-align-center">The Lumina Library</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size">Honest, grounded guides to the medicines and the work — written to inform, not to sell.</p>
+<!-- wp:paragraph {"align":"center","className":"library-intro-lede","fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size library-intro-lede">Honest, grounded guides to the medicines and the work — written to inform, not to sell.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

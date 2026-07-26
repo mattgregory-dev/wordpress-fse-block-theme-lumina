@@ -36,3 +36,6 @@
 
 // "Learn More" cards (home-learn-more pattern). See _learn-more.scss.
 @use "./styles/learn-more";
+
+// Small utility classes applied via block className. See _utilities.scss.
+@use "./styles/utilities";
