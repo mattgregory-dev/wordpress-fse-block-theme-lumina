@@ -39,3 +39,9 @@
 
 // Small utility classes applied via block className. See _utilities.scss.
 @use "./styles/utilities";
+
+// Retreat pricing cards — checklist divider lines. See _pricing.scss.
+@use "./styles/pricing";
+
+// Retreat FAQ accordion (square details/summary). See _faq.scss.
+@use "./styles/faq";

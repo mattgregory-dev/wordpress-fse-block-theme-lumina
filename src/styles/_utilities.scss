@@ -14,3 +14,13 @@
   max-width: 28rem;
   margin-inline: auto;
 }
+
+// Retreat pricing disclosure note — constrained measure, centred, set off in a
+// soft dashed box.
+.pricing-note {
+  max-width: 700px;
+  margin-inline: auto;
+  padding: 1rem;
+  border: 1px dashed var(--wp--preset--color--muted);
+  border-radius: 5px;
+}

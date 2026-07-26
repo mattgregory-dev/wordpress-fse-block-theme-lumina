@@ -32,12 +32,3 @@
   }
 }
 
-// --- Launch toggle: hide "Book a Consultation" -----------------------------
-// Every consultation entry point carries the .book-consultation class — the
-// CTA/hero buttons and the footer "Book a Free Consultation" list item. If the
-// site must launch before the client's Calendly booking is ready, uncomment the
-// three lines below and rebuild to hide them all; re-comment once booking is
-// live.
-// .book-consultation {
-//   display: none;
-// }

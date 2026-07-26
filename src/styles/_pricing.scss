@@ -1,0 +1,14 @@
+// ---------------------------------------------------------------------------
+// Retreat pricing cards — divider lines between the checklist items (matching
+// the mockup). The checklist marker itself comes from _lists.scss; spacing is
+// driven by even padding here (the list block-gap is neutralised) so the rules
+// sit centred between rows.
+// ---------------------------------------------------------------------------
+
+.pricing-cards {
+  .is-style-checklist li {
+    margin-block: 0;
+    padding-block: 0.65rem;
+    border-bottom: 1px solid var(--wp--preset--color--fog);
+  }
+}

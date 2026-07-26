@@ -8,8 +8,8 @@
  * @package lumina-blocks
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center"} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"pricing-cards","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull pricing-cards" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center">Your Place at the Retreat</h2>
 <!-- /wp:heading -->
 
@@ -18,9 +18,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-columns"><!-- wp:column {"backgroundColor":"white","style":{"border":{"radius":"14px","width":"2px","color":"var:preset|color|blue"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|lifted"}} -->
-<div class="wp-block-column has-white-background-color has-background has-border-color" style="border-color:var(--wp--preset--color--blue);border-width:2px;border-radius:14px;box-shadow:var(--wp--preset--shadow--lifted);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.1em"},"border":{"radius":"999px","width":"1px"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"12px","right":"12px"}}},"borderColor":"blue","textColor":"blue","fontSize":"x-small"} -->
-<p class="has-border-color has-blue-border-color has-blue-color has-text-color has-x-small-font-size" style="border-width:1px;border-radius:999px;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px;text-transform:uppercase;letter-spacing:0.1em">Most guests choose this</p>
+<div class="wp-block-columns"><!-- wp:column {"backgroundColor":"white","style":{"border":{"radius":"14px","width":"2px","color":"#004cc8"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|20"},"shadow":"var:preset|shadow|lifted"}} -->
+<div class="wp-block-column has-white-background-color has-background has-border-color" style="border-color:#004cc8;border-width:2px;border-radius:14px;box-shadow:var(--wp--preset--shadow--lifted);padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.1em"},"border":{"radius":"999px","width":"1px","color":"#004cc8"},"color":{"text":"#004cc8","background":"#f0f8ff"},"spacing":{"padding":{"top":"4px","bottom":"4px","left":"12px","right":"12px"}}},"fontSize":"x-small"} -->
+<p class="has-border-color has-text-color has-background has-x-small-font-size" style="border-color:#004cc8;border-width:1px;border-radius:999px;color:#004cc8;background-color:#f0f8ff;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px;text-transform:uppercase;letter-spacing:0.1em">Most guests choose this</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -39,8 +39,8 @@
 <p>The full immersion with sacred plant medicine across three guided ceremonies, paired with the 4-E process.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
-<ul class="wp-block-list" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:list-item -->
+<!-- wp:list {"className":"is-style-checklist","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
+<ul class="wp-block-list is-style-checklist" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:list-item -->
 <li>Seven nights' lodging</li>
 <!-- /wp:list-item -->
 
@@ -89,8 +89,8 @@
 <p>The full immersion and every ceremony, experienced without taking medicine — guided through the 4-E process and personal inquiry.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
-<ul class="wp-block-list" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:list-item -->
+<!-- wp:list {"className":"is-style-checklist","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
+<ul class="wp-block-list is-style-checklist" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:list-item -->
 <li>Seven nights' lodging</li>
 <!-- /wp:list-item -->
 
@@ -123,7 +123,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:paragraph {"align":"center","fontSize":"x-small","style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
-<p class="has-text-align-center has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--40)">A $500 non-refundable deposit secures your place. The balance is due one week before the retreat. If you pay in full and must cancel, we refund your payment minus the $500 deposit. Travel to Sedona is not included.</p>
+<!-- wp:paragraph {"align":"center","className":"pricing-note","fontSize":"x-small","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<p class="has-text-align-center has-x-small-font-size pricing-note" style="margin-top:var(--wp--preset--spacing--60)">A $500 non-refundable deposit secures your place. The balance is due one week before the retreat. If you pay in full and must cancel, we refund your payment minus the $500 deposit. Travel to Sedona is not included.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

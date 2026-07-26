@@ -13,8 +13,8 @@
 <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--50)">Practical Questions</h2>
 <!-- /wp:heading -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:details {"showContent":true,"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
+<!-- wp:group {"className":"faq-accordion","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group faq-accordion"><!-- wp:details {"showContent":true,"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
 <details class="wp-block-details has-border-color has-fog-border-color" open style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What If I Don't Want to Work With Plant Medicine?</summary><!-- wp:paragraph -->
 <p>That is completely okay. At Lumina, participation in plant medicine ceremonies is encouraged, but never required if a guest is feeling apprehensive.</p>
 <!-- /wp:paragraph -->
