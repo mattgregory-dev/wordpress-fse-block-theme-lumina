@@ -73,6 +73,18 @@ function theme_assets() {
 }
 add_action( 'wp_enqueue_scripts', 'theme_assets', 999 );
 
+/**
+ * Load the compiled SCSS bundle inside the editor canvas too, so custom CSS
+ * (image border-radius, form and FAQ styling, button variations, etc.) previews
+ * the same as the front end instead of falling back to editor defaults.
+ * Note: logo colour is handled separately in theme.json's styles.css, since the
+ * logo is a Custom HTML block that the editor previews in an isolated iframe.
+ */
+function theme_editor_assets() {
+	add_editor_style( 'dist/assets/main.css' );
+}
+add_action( 'after_setup_theme', 'theme_editor_assets' );
+
 // Force the theme main bundle to render as an ES module.
 function theme_force_main_module_tag( $tag, $handle, $src ) {
 	if ( 'theme-main' !== $handle ) {

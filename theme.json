@@ -90,7 +90,7 @@
     }
   },
   "styles": {
-    "css": "img{max-width:100%;height:auto}.has-border-color{border-style:solid}",
+    "css": "img{max-width:100%;height:auto}.has-border-color{border-style:solid}.site-logo,.site-logo:hover,.site-logo:focus{color:var(--wp--preset--color--forest)}a.site-logo--footer,a.site-logo--footer:hover,a.site-logo--footer:focus{color:var(--wp--preset--color--white)}body[data-resizable-iframe-connected]:has(a.site-logo--footer){background-color:transparent;text-align:center}",
     "color": {
       "background": "var(--wp--preset--color--light-sage)",
       "text": "var(--wp--preset--color--body)"
@@ -164,6 +164,9 @@
       },
       "core/post-excerpt": {
         "color": { "text": "var(--wp--preset--color--muted)" }
+      },
+      "core/image": {
+        "border": { "radius": "6px" }
       },
       "core/separator": {
         "color": { "text": "var(--wp--preset--color--fog)" }

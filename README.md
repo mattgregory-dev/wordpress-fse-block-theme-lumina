@@ -126,6 +126,39 @@ Reach for these before assuming the file is wrong:
 > `true`, which merges core's sizes on top of yours. This theme sets it to
 > `false`. See `theme.json`.
 
+## Editor preview gotchas (inline-SVG logos)
+
+The header/footer logos are inline `<svg fill="currentColor">` inside **Custom
+HTML** blocks. The block editor previews every Custom HTML block in an isolated
+`<iframe srcdoc>` that contains *only that block's markup* — no `.site-header` /
+`.site-footer` wrapper, and none of the front-end bundle unless it's registered
+as an editor style. That single fact drove a long chain of "logo is the wrong
+colour / invisible in the editor" bugs. What the fixes settled on:
+
+- **Style the logo with direct `.site-logo` selectors, never ancestor
+  selectors.** `.site-header .site-logo` / `.site-footer .site-logo` can never
+  match inside the sandbox (the ancestor isn't there). The base colour is set on
+  `.site-logo` itself (forest); the footer's white rides on its own class,
+  `.site-logo--footer`.
+- **Logo colour lives in `theme.json` `styles.css`, not the SCSS bundle.**
+  theme.json's global styles load in *both* the editor and the front end, and
+  aren't run through the CSS minifier — which once rewrote a nested `&` rule down
+  to a bare `.site-logo{color:white}`. That was harmless on the front end (a more
+  specific rule won) but took over once the editor re-scoped everything under
+  `.editor-styles-wrapper`.
+- **Editor-only tweaks are gated on the sandbox body.** The sandbox `<body>`
+  carries `data-resizable-iframe-connected`; the front-end body doesn't. So
+  `body[data-resizable-iframe-connected]:has(a.site-logo--footer){…}` makes the
+  footer-logo preview transparent + centred **in the editor only**, with zero
+  effect on the live site.
+- `add_editor_style('dist/assets/main.css')` (in `inc/enqueue.php`) loads the
+  compiled bundle into the editor **canvas** so other custom CSS (image radius,
+  form/FAQ styling) previews correctly — but it does **not** reach the isolated
+  Custom HTML sandbox, which is the other reason logo colour lives in theme.json.
+
+`src/styles/_logo.scss` owns logo **layout only** (sizing/`display`); all colour
+is in `theme.json`.
+
 ## Accessibility
 
 Baseline a11y is built in — the intent is to match the care taken in Starter

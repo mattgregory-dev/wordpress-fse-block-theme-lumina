@@ -1,34 +1,19 @@
 // ---------------------------------------------------------------------------
 // Site logo — inline SVG wordmark in the header and footer template parts.
-// The SVG uses fill="currentColor", so it follows the link's `color`: forest in
-// the header, white in the footer. The logo link is never underlined.
+// The SVG uses fill="currentColor", so it follows the link's `color`. That
+// colour (forest in the header, white in the footer, held on hover/focus) is
+// set in theme.json's styles.css so it also applies inside the block editor and
+// isn't at the mercy of the CSS minifier. This file only owns layout.
 // ---------------------------------------------------------------------------
 
 .site-logo {
   display: inline-flex;
+  text-decoration: none;
 
   svg {
     display: block;
     height: 4.3rem;
     width: auto;
     max-width: 100%;
-  }
-}
-
-.site-header .site-logo {
-  &,
-  &:hover,
-  &:focus {
-    color: var(--wp--preset--color--forest);
-    text-decoration: none;
-  }
-}
-
-.site-footer .site-logo {
-  &,
-  &:hover,
-  &:focus {
-    color: var(--wp--preset--color--white);
-    text-decoration: none;
   }
 }
