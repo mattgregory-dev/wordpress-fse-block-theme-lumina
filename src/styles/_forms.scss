@@ -274,11 +274,15 @@
   }
 
   // Form-level summary (announced via role="alert"): a clearly-coloured alert
-  // so submit-time errors and the success confirmation are unmistakable.
+  // so submit-time errors and the success confirmation are unmistakable. The
+  // bottom margin keeps it clear of whatever follows — fields on a single-page
+  // form, the pagination stepper on the paginated application form.
   .forminator-response-message {
+    margin-bottom: 1.75rem !important;
     border-radius: 0.75rem !important;
-    padding: 0.75rem 1rem !important;
+    padding: 0.875rem 1.125rem !important;
     font-size: 0.875rem !important;
+    line-height: 1.5 !important;
 
     &.forminator-error {
       color: var(--wp--preset--color--error) !important;
@@ -286,10 +290,12 @@
       border: 1px solid color-mix(in srgb, var(--wp--preset--color--error) 45%, transparent) !important;
     }
 
+    // Warm beige (not a palette token) so the confirmation stands out against
+    // the light-sage page canvas instead of blending into it.
     &.forminator-success {
       color: var(--wp--preset--color--forest) !important;
-      background: var(--wp--preset--color--light-sage) !important;
-      border: 1px solid var(--wp--preset--color--sage) !important;
+      background: #fdf6e3 !important;
+      border: 1px solid #e6d7ac !important;
     }
   }
 
