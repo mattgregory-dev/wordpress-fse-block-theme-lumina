@@ -41,8 +41,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/placeholder-vertical.webp' ) ); ?>" alt=""/></figure>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%"><!-- wp:image {"id":1269,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 1269, 'full' ) ); ?>" alt="A bird in flight beside a rainbow in a blue sky" class="wp-image-1269"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
