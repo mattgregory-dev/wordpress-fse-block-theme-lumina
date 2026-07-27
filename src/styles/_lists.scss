@@ -36,6 +36,10 @@
       height: 1.4rem;
       margin-top: 0.15em;
       border: 1px solid var(--wp--preset--color--forest);
+
+      // Soft alice-blue fill inside the ✓ box (matches the pricing "Most
+      // guests" badge accent). Not a palette token — a one-off accent hex.
+      background-color: #f0f8ff;
       color: var(--wp--preset--color--forest);
       font-size: 0.8em;
       line-height: 1;
