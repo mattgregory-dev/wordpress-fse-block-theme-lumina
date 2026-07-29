@@ -1,6 +1,6 @@
 # Lumina Blocks
 
-A bespoke **Full Site Editing** WordPress theme for [Lumina Healing Center](https://luminasedona.com),
+A bespoke **Full Site Editing** WordPress theme for [Lumina Healing Center](https://luminaretreatcenter.com),
 a retreat center in Sedona, Arizona. Built the modern block-native way — **design
 tokens in `theme.json`, page sections as block patterns, pages as block
 templates** — with no page builder and no starter-theme scaffolding left behind.
