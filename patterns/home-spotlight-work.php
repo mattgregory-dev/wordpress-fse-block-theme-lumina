@@ -8,22 +8,8 @@
  * @package lumina-blocks
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><?php echo lumina_image_block( 'sky-milky-way-3.webp', 'The Milky Way arcing across a deep, star-filled night sky' ); ?></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">The Work</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">The Medicine Opens the Door. The Real Work Begins There.</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<!-- wp:lumina-blocks/spotlight {"align":"full","imageId":<?php echo (int) lumina_attachment_id_by_filename( 'sky-milky-way-3.webp' ); ?>,"imageAlt":"The Milky Way arcing across a deep, star-filled night sky","imagePosition":"left","eyebrow":"The Work","level":"h2","title":"The Medicine Opens the Door. The Real Work Begins There."} -->
+<div class="spotlight__body"><!-- wp:paragraph -->
 <p>Sacred plant medicine can do something almost nothing else can: it shows you, directly, that there's far more to you and to life than the day-to-day surface of labels, roles, and routine. You don't need any background or practice to feel it. That opening alone can be profound, and for some it's the whole reason they come.</p>
 <!-- /wp:paragraph -->
 
@@ -31,11 +17,9 @@
 <p>But an open door is not the same as walking through it. Most people get the experience and little else — a powerful night that fades back into the old life. Real, lasting change comes from what you do while that door is open: meeting the pattern at its root, where it truly lives, and integrating the work so it takes hold. That's what we're built for.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:button {"url":"/ayahuasca-an-ancient-medicine-for-a-modern-world/","className":"is-style-secondary"} -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"url":"/ayahuasca-an-ancient-medicine-for-a-modern-world/","className":"is-style-secondary"} -->
 <div class="wp-block-button is-style-secondary"><a class="wp-block-button__link wp-element-button" href="/ayahuasca-an-ancient-medicine-for-a-modern-world/">How the Work Goes Deeper</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></section>
-<!-- /wp:group -->
+<!-- /wp:lumina-blocks/spotlight -->

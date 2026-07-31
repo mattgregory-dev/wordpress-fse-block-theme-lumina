@@ -8,23 +8,13 @@
  * @package lumina-blocks
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Sedona, Arizona · January 2027</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">You Know Your Patterns Better Than Anybody. Finally Break Free of Them.</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"fontSize":"large"} -->
+<!-- wp:lumina-blocks/spotlight {"align":"full","imageId":<?php echo (int) lumina_attachment_id_by_filename( 'lotus-pond-4.webp' ); ?>,"imageAlt":"White water lilies blooming in a dark, still pond","imagePosition":"right","eyebrow":"Sedona, Arizona · January 2027","level":"h1","title":"You Know Your Patterns Better Than Anybody. Finally Break Free of Them."} -->
+<div class="spotlight__body"><!-- wp:paragraph {"fontSize":"large"} -->
 <p>You've come a long way already. This is the retreat to address those final blocks — what's underneath the patterns, and why the change hasn't stuck. Seven days in Sedona, sacred plant medicine, and our 4-E process, to finally move past what's been holding you back.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:button -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/apply/">Apply for the Retreat</a></div>
 <!-- /wp:button -->
 
@@ -36,10 +26,4 @@
 <!-- wp:paragraph {"fontSize":"x-small"} -->
 <p class="has-x-small-font-size">Or text or call us at <a href="tel:6027536573">(602) 753-6573</a> — we'll get right back to you.</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><?php echo lumina_image_block( 'lotus-pond-4.webp', 'White water lilies blooming in a dark, still pond' ); ?></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></section>
-<!-- /wp:group -->
+<!-- /wp:lumina-blocks/spotlight -->
