@@ -18,5 +18,6 @@ function lumina_register_blocks() {
 	register_block_type( get_template_directory() . '/build/intro-section' );
 	register_block_type( get_template_directory() . '/build/spotlight' );
 	register_block_type( get_template_directory() . '/build/bio' );
+	register_block_type( get_template_directory() . '/build/cta-band' );
 }
 add_action( 'init', 'lumina_register_blocks' );
