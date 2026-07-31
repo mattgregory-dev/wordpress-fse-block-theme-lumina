@@ -11,9 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:image {"id":1257,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 1257, 'full' ) ); ?>" alt="The Milky Way over a dark mountain ridge at night" class="wp-image-1257"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><?php echo lumina_image_block( 'sky-milky-way-3.webp', 'The Milky Way arcing across a deep, star-filled night sky' ); ?></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
@@ -22,15 +20,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Medicine Opens the Door. Then the Real Work Begins.</h2>
+<h2 class="wp-block-heading">The Medicine Opens the Door. The Real Work Begins There.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Sacred plant medicine can do something almost nothing else can: it shows you, directly, that there's far more to you and to life than the day-to-day surface of labels, roles, and habits. You don't need any self-help background or practice to experience it. For many people the medicine alone can be a profound experience, and for some it's the whole reason they come.</p>
+<p>Sacred plant medicine can do something almost nothing else can: it shows you, directly, that there's far more to you and to life than the day-to-day surface of labels, roles, and routine. You don't need any background or practice to feel it. That opening alone can be profound, and for some it's the whole reason they come.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>But an open door is not the same as walking through it. Most people get the experience and little else — a powerful night that fades back into the old life. Real, lasting change comes from what you do while that door is open: meeting the pattern at its root, where it truly lives, and integrating the work so it takes hold. That's what we're built for. And that's you taking responsibility for your life.</p>
+<p>But an open door is not the same as walking through it. Most people get the experience and little else — a powerful night that fades back into the old life. Real, lasting change comes from what you do while that door is open: meeting the pattern at its root, where it truly lives, and integrating the work so it takes hold. That's what we're built for.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->

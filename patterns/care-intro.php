@@ -17,19 +17,7 @@
 <h1 class="wp-block-heading has-text-align-center care-intro-heading" style="margin-bottom:var(--wp--preset--spacing--40)">You Are Held, Every Step of the Way</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>This is deep and meaningful work, and we recognize that it asks a great deal of courage, openness, and trust from each person who attends.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Our responsibility is to create an environment where you feel safe enough to fully engage in the process. That begins long before you arrive through careful screening, thorough preparation, and honest conversations about whether the retreat is the right fit for you. It continues throughout the retreat with experienced guidance, compassionate support, and a thoughtfully held container designed to help you navigate whatever arises with confidence and care.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Most importantly, our support does not end when the retreat is over. Through our integration program and ongoing guidance, we help you make sense of your experiences and translate them into meaningful changes in everyday life.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You do not have to walk this journey alone. From your first conversation with us to the weeks following your retreat, our intention is that you feel informed, supported, respected, and cared for every step of the way.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">This is deep work, and it asks a lot of you. Our job is to make sure you feel safe enough to do it — carefully screened, well prepared, and supported before, during, and after the retreat.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

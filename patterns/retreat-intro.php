@@ -18,10 +18,6 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size">You've done the therapy, the workshops, the spiritual practices, and the inner work. You've grown. But if you're honest, there are still patterns that haven't fully released — places where life isn't flowing the way you know it could. Insight without transformation does not serve you.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Lumina is for those who are ready to reach the layers beneath the pattern itself: to uncover what's really driving it, heal it at the root, and step into a life no longer defined by the past.</p>
+<p class="has-text-align-center has-large-font-size">You've put in the work — the therapy, the workshops, the practices — and they've taken you far. But you know the patterns that still hold you back, the gap between what you understand and how you actually live. This is the retreat for people ready to reach that last layer: self-aware, capable, and done settling for a life that isn't truly free.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

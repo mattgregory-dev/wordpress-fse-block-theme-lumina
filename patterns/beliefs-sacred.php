@@ -18,30 +18,6 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>At the heart of Lumina is a simple belief: every human being possesses an innate capacity to heal, grow, and awaken to a deeper truth within themselves.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>We believe transformation is sacred, and that genuine healing is far more than the resolution of symptoms or the pursuit of extraordinary experiences. It is a process of remembering who we are beneath our conditioning, our wounds, our fears, and the stories we have carried about ourselves for so long.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>We approach this work with humility and reverence. Ceremony is held as a sanctuary — a space where people can step away from the noise of everyday life and reconnect with what is most essential within themselves. Every aspect of the retreat is approached with intention, prayer, presence, and genuine care, honoring both the courage it takes to undertake this journey and the trust that guests place in us.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>We believe deeply in the dignity, sovereignty, and freedom of every person who comes to Lumina. No one is here to be fixed, changed, or told what to believe. The decision to undertake this work is always your own, guided by your own inner knowing and the wisdom of your own heart. Our role is not to provide answers, but to help create the conditions in which your own truth can emerge.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>And while ceremony may open the door, we believe the deepest work happens afterward.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Healing is revealed in how we live. In how we show up in our relationships. In how we care for ourselves and others. In how we meet life's challenges with greater awareness, compassion, and courage. It is found in the small choices we make each day and in the willingness to continue growing long after the retreat has ended.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Because ultimately, the measure of this work is not what happens in ceremony. It is the life that unfolds because of it.</p>
+<p>We believe transformation is sacred, and that true healing is a spiritual act. We believe in holding ceremony as a sanctuary — preparing and guiding each person with prayer, intention, and genuine care. We believe in the dignity and freedom of every person who comes, and that the choice to do this work is always your own, made from your own heart. And we believe the real work continues long after ceremony ends — in how you live, how you love, and how you meet yourself each day.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

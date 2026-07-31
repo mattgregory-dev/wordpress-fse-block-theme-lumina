@@ -9,9 +9,9 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"55%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
+<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
 <p class="has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">The No-Medicine Path</p>
 <!-- /wp:paragraph -->
 
@@ -20,26 +20,16 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>At Lumina, we recognize that there is no single path to healing. While some guests choose to work with sacred plant medicines as part of their journey, participation in medicine ceremonies is never a requirement. We offer retreat experiences both with and without medicine, honoring the unique needs, readiness, and personal convictions of each individual.</p>
+<p>Some guests come without taking medicine — and their experience is full, not lesser. You take part in every ceremony, held in the same circle, sharing the same intention and the same field of healing. You go deep through the 4-E Process, personal guidance and inquiry with Ash, meditation, and the music of ceremony.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Guests who choose the non-medicine path fully participate in the retreat experience, including the 4-E Elemental Wisdom Process, guided self-inquiry, meditation, group integration, personal guidance with Ash, movement practices, and the powerful music and sacred atmosphere of ceremony. They are held within the same intentional container, supported by the same commitment to healing, growth, and transformation.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Our experience has shown that profound change does not come from medicine alone. It comes from the willingness to look deeply, meet yourself honestly, and engage fully in the process. For many guests, the insights gained through inquiry, presence, and embodied awareness can be just as life-changing as any medicine experience.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>At Lumina, we do not believe healing belongs to any one modality. Medicine is one pathway. Conscious inquiry is another. What matters most is your willingness to show up, do the work, and embrace the possibility of a new way of being.</p>
+<p>For those ready to commit, this path can be every bit as powerful — sometimes more. The depth comes from your willingness to grow and heal, not from the medicine alone.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%"><!-- wp:image {"id":507,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 507, 'full' ) ); ?>" alt="Illustration of a green medicine spirit holding a ceremonial bowl amid Sedona red rocks" class="wp-image-507"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><?php echo lumina_image_block( 'ceremony-lumina-2.webp', 'Illustration of a green medicine spirit holding a ceremonial bowl amid Sedona red rocks' ); ?></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->

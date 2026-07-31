@@ -11,9 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"40%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:40%"><!-- wp:image {"id":1254,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 1254, 'full' ) ); ?>" alt="Marco Pepino" class="wp-image-1254"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:40%"><?php echo lumina_image_block( 'lumina-marco.webp', 'Marco Pepino' ); ?></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top","width":"60%"} -->
@@ -26,55 +24,23 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Marco's path into this work did not begin with a calling to serve others. It began with his own suffering.</p>
+<p>Marco came to this work during one of the hardest chapters of his life — a divorce, deep corporate burnout, and exhaustion that left him close to a breakdown. He had spent nearly thirty years on a spiritual path: meditation, Kriya Yoga, martial arts, Taoist internal arts. And still, beneath all of it, old trauma and patterns remained.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In what should have been a successful chapter of his life, he found himself facing a painful divorce, deep corporate burnout, and an exhaustion and depression that touched every part of his being. Despite decades of spiritual practice, something essential remained unresolved. Beneath the accomplishments, beneath the meditation, beneath the personal growth, old wounds and unconscious patterns were still shaping his life.</p>
+<p>What he came to understand changed everything: awareness alone does not heal trauma. Mindfulness could open his mind, but the deeper wounds lived in the body and nervous system, untouched.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>For nearly thirty years, Marco had immersed himself in the study of consciousness and healing. He practiced meditation, Kriya Yoga, Qi Gong, Tai Chi, and Taoist internal arts. These traditions brought profound insight and awareness, but eventually he came to a difficult realization: awareness alone was not enough. He could observe his patterns, but observation did not always free him from them. The deeper wounds lived not only in the mind, but in the body, the emotions, and the nervous system itself.</p>
+<p>That search led him to Peru, where he studied for years with Shipibo curanderos — sitting in traditional dietas, learning the icaros, and experiencing the medicine as something far deeper than expanded consciousness. It worked emotionally and physically, almost like psychic surgery.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>His search for deeper healing eventually led him to Peru, where he spent years participating in traditional dietas and learning from the Peruvian curanderos. There he encountered a level of healing that challenged everything he thought he knew. The medicine seemed to work beyond concepts, reaching emotional, psychological, and even physical layers that had remained untouched by years of spiritual practice. At times, the experience felt like a form of inner surgery — revealing, unwinding, and healing places within himself he did not know how to reach alone.</p>
+<p>But over time he grew disillusioned with much of the Western medicine world. He saw beautiful ceremonies that led to little lasting change — the medicine becoming just another form of seeking. So he stepped away for nearly five years.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Yet over time, Marco became concerned by what he witnessed in much of the modern plant medicine movement. He saw powerful ceremonies and beautiful experiences, but often very little lasting transformation. Many people were having profound insights, yet returning home to the same patterns, the same suffering, and the same lives. Increasingly, it felt as though the medicine itself was becoming another form of seeking rather than a pathway to genuine freedom.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>As a result, he stepped away from the medicine work for nearly eight years.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>During this period, Marco met his life partner, whose presence and guidance would profoundly influence the next chapter of his journey. While spiritual practice had taught him how to cultivate awareness, she introduced him to a much deeper path of self-inquiry — one that invited him not merely to observe his experience, but to investigate the hidden assumptions, identities, and conditioning that lay beneath it. Through this work, Marco began to see that true transformation required more than insight; it required the courage to question the very structures through which he had been experiencing himself and the world.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>She later introduced Marco to Ash.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Then everything changed when he encountered Ash and the 4-E Elemental Wisdom Process. For the first time, Marco experienced a framework that brought together the insight of medicine, the wisdom of self-inquiry, the intelligence of the body, and an understanding of how trauma and conditioning become embedded within us. It was no longer about chasing experiences. It was about transforming the patterns underneath them.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The results were profound. The work reached places that years of spiritual practice and medicine alone had not fully touched. More importantly, the changes lasted.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Lumina was born from that realization.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Today, Marco's passion is not helping people have extraordinary experiences. It is helping them create meaningful and lasting transformation. His intention is to offer the kind of environment he once searched for himself — one that honors the wisdom of sacred medicines while placing equal importance on integration, embodiment, inquiry, and the courage to live what is discovered.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Because in the end, healing is not measured by what happens during ceremony. It is measured by the life you are able to live afterward.</p>
+<p>Everything shifted when he experienced the 4-E process with Ash. For the first time, medicine was joined with deep inquiry, embodiment, and trauma awareness in a way that didn't just create a peak experience — it dismantled the patterns underneath. That was the moment he knew this would become his life's work. Lumina was born from it.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>

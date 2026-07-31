@@ -9,49 +9,23 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"58%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:58%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
+<section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"58%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:58%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
 <p class="has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Ancient Wisdom, Modern Healing</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Where Ancient Wisdom Meets Modern Understanding</h2>
+<h2 class="wp-block-heading">Where Old and New Meet</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We hold deep respect for the ancient traditions from which this work comes. For generations, Indigenous cultures have understood the healing potential of these medicines and developed sophisticated ceremonial practices to work with them safely and respectfully. We honor that wisdom and the lineages that have preserved it.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>At the same time, we believe healing today asks for more than ceremony alone.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>While profound insights can emerge through medicine work, insight by itself does not always create lasting change. We now understand far more about trauma, conditioning, attachment patterns, and the role of the nervous system in shaping our experience of life. We know that healing is not only a spiritual process — it is also emotional, psychological, relational, and embodied.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>At Lumina, we bring these worlds together.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The wisdom of sacred plant medicines is woven together with trauma-informed care, nervous system awareness, embodied practices, deep self-inquiry, and meaningful integration. Rather than focusing solely on the ceremony experience, we work with the whole person — mind, body, heart, and spirit.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>This integration of ancient wisdom and modern understanding is at the heart of our approach. The ceremony may reveal what needs to be seen, but it is through embodiment, inquiry, and integration that those insights become part of who we are.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Because healing is not measured by what happens during ceremony. It is measured by how we live when the ceremony is over.</p>
+<p>We hold deep respect for the ancient traditions this work comes from. We also believe healing today asks for more than ceremony alone. So we bring together the wisdom of the plants with what we understand now about trauma, the nervous system, and the body — meeting the whole person, not just the moment of ceremony. Insight has to be lived to become real. That belief is the foundation of everything we do.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"42%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:42%"><!-- wp:image {"id":1277,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 1277, 'full' ) ); ?>" alt="Smoke rising from a smoldering smudge stick" class="wp-image-1277"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:column {"verticalAlignment":"center","width":"42%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:42%"><?php echo lumina_image_block( 'smoking-smudge-stick.webp', 'Smoke rising from a smoldering smudge stick' ); ?></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->

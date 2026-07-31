@@ -15,28 +15,8 @@
 
 <!-- wp:group {"className":"faq-accordion","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group faq-accordion"><!-- wp:details {"showContent":true,"style":{"border":{"width":"1px","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"borderColor":"fog"} -->
-<details class="wp-block-details has-border-color has-fog-border-color" open style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>What If I Don't Want to Work With Plant Medicine?</summary><!-- wp:paragraph -->
-<p>That is completely okay. At Lumina, participation in plant medicine ceremonies is encouraged, but never required if a guest is feeling apprehensive.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>We recognize that people arrive at different places in their healing journey. Some guests feel called to work directly with sacred plant medicines, while others may not feel ready, may have personal reasons not to participate, or may simply feel that their path at this moment is not ready for medicine. All of these choices are respected and honored.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Guests who choose the non-medicine path remain fully included in the retreat experience. You will participate in the opening and closing circles, daily Qi Gong, teachings, meditation practices, group integration, community activities, and the complete 4-E Elemental Wisdom Process. You will be held within the same supportive container, receive the same personal guidance, and engage in the same deep exploration of the patterns, beliefs, emotions, and unconscious structures that shape your life.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>During ceremony evenings, non-medicine participants remain part of the ceremonial space and collective experience. Many guests find that simply being present within a focused and intentional environment, supported by music, meditation, reflection, and inquiry, can open meaningful insights and profound healing of its own.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Most importantly, healing does not belong to any one modality. While plant medicine can be a powerful catalyst, lasting transformation ultimately comes from your willingness to look honestly at yourself, engage fully with the process, and apply what you discover to your life. The 4-E Process was designed to help facilitate that transformation, whether medicine is part of your journey or not.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>At Lumina, there is no "lesser" path. There is only your path. Our role is to meet you where you are, support you with compassion and care, and help you move toward greater freedom, clarity, and wholeness in a way that feels safe, aligned, and authentic to you.</p>
+<details class="wp-block-details has-border-color has-fog-border-color" open style="border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)"><summary>Do I have to take the medicine?</summary><!-- wp:paragraph -->
+<p>No. The no-medicine path is a full part of the retreat — you take part in every ceremony and go deep through the 4-E process, inquiry, and meditation. Many find it just as powerful.</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 

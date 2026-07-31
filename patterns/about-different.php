@@ -18,54 +18,10 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Many retreats focus on the ceremony itself. At Lumina, we see ceremony as the beginning of the conversation, not the end of it.</p>
+<p>At most retreats, the ceremony is the whole point. At Lumina, the medicine is one tool inside a much larger process — trauma healing, nervous system restoration, embodiment, self-inquiry, and real integration. The focus isn't the peak experience. It's dissolving the patterns that keep creating suffering long after the ceremony ends.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Over the years, both Marco and Ash arrived at the same realization from different directions: profound experiences do not necessarily create lasting transformation. Insight can fade. Awareness can deepen. Powerful ceremonies can come and go. Yet the same patterns often remain, quietly shaping our lives beneath the surface.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Real healing requires something more.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>It requires a space where wisdom is not only revealed, but understood. Where emotions are not only felt, but integrated. Where trauma is not bypassed, but compassionately met. Where insight becomes embodiment and transformation becomes something that can be lived.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Marco and Ash bring two complementary paths together in service of that vision.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Marco's journey emerged through decades of meditation, martial arts, Qi Gong, Taoist internal arts, and years of study with indigenous healers in Peru. His path taught him the value of discipline, presence, devotion, and the profound intelligence of plant medicine. Through his own struggles, healing journey, and years of seeking, he developed a deep respect for the courage it takes to truly change.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Ash's path emerged through decades of spiritual inquiry, healing work, music, and guiding others through awakening and transformation. His gift lies in helping people see beyond the stories they have built around themselves and into the deeper patterns that create suffering. With extraordinary compassion and clarity, he creates the conditions for genuine insight, emotional healing, and lasting change.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Together, they hold a rare balance.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>One brings the wisdom of lived experience, grounded presence, and the sacred traditions of medicine work. The other brings deep inquiry, emotional attunement, and a profound understanding of transformation. Neither approach is complete on its own.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Lumina was born from the recognition that lasting healing requires both.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The medicine opens what has been hidden. Inquiry helps us understand it. Embodiment helps us live differently. Integration allows the change to endure.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>This is the foundation of Lumina.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Not extraordinary experiences for their own sake, but a path toward genuine freedom — supported by two guides who have devoted their lives to understanding what truly creates lasting transformation.</p>
+<p>That comes from the two people holding it. Marco brings decades of meditation, martial arts, and Taoist internal arts, years of lived experience in traditional plant medicine, and a grounded, steady presence — along with the organizational backbone of someone who ran a martial arts academy in Sedona and built businesses before devoting himself to this fully. Ash brings deep trauma-informed inquiry, emotional attunement, and compassion. Most spaces have one side without the other. Lumina was built on both.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

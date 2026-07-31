@@ -17,27 +17,7 @@
 <h1 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--40)">Healing Is Sacred Work</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>We believe that every person carries within them an innate capacity to heal, grow, and rediscover the wholeness that has always been there beneath the layers of conditioning, trauma, and life experience.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The medicine, the ceremonies, the 4-E Process, and everything we do at Lumina are ultimately in service of that remembering. Not to give you something you do not already possess, but to help remove the obstacles that may have obscured it.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Healing is not about becoming someone else. It is about returning to what is most authentic within you. It is about meeting yourself with honesty, compassion, and courage, and allowing what no longer serves you to soften, release, and transform.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>We approach this work with humility and deep respect. The experiences that unfold during retreat are often profound, but we do not believe the healing comes from any one person, technique, or medicine. Rather, these are tools that help create the conditions for your own innate wisdom and healing intelligence to emerge.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Our role is simply to provide a safe and supportive container, to walk beside you on the journey, and to help illuminate the path when it becomes difficult to see.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Because beneath every pattern, every wound, and every story we carry, there is something whole that has never been broken. And it is that deeper truth we seek to remember together.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">We believe every person carries the capacity to heal, to come home to themselves, and to remember who they are beneath their patterns. The medicine, the ceremony, and the work we do together are all in service of that.</p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

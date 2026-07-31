@@ -22,6 +22,9 @@
 // Header — centered logo + nav on tablet/mobile. See _header.scss.
 @use "./styles/header";
 
+// Spotlight columns — top-align image+text columns ≤1160px. See _columns.scss.
+@use "./styles/columns";
+
 // Footer — dark forest band with white text (region theming). See _footer.scss.
 @use "./styles/footer";
 

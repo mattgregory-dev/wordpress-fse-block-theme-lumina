@@ -1,0 +1,12 @@
+// ---------------------------------------------------------------------------
+// Image + text spotlight columns are vertically centred on desktop (set on the
+// block). Once the columns narrow, the shorter column floats awkwardly in the
+// middle — so from 1160px down, top-align them instead. Below 782px WordPress
+// stacks columns anyway, so this really governs the 782–1160px band.
+// ---------------------------------------------------------------------------
+
+@media (width <= 1160px) {
+  .wp-block-columns.are-vertically-aligned-center {
+    align-items: flex-start;
+  }
+}

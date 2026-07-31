@@ -20,15 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Nestled in the heart of the stunning Verde Valley, just a short drive from Sedona's iconic red rocks, Lumina offers a beautiful retreat center designed to support deep healing and transformation. Surrounded by nature and situated near the flowing waters of the Verde River, the center features comfortable private and shared accommodations, thoughtfully designed guest rooms, spacious gathering areas, and a welcoming kitchen where nourishing meals are prepared.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>With a small group of participants, Lumina creates an intimate and supportive environment where each guest is truly seen and cared for. Guided ceremonies, the 4-E Process, wholesome organic food, and the natural beauty of the land come together to create the ideal container for profound inner work. Free from the distractions and demands of everyday life, guests are invited to slow down, reconnect, and fully dedicate themselves to their healing journey.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Whether attending with or without medicine, Lumina offers two distinct paths toward greater clarity, freedom, and lasting transformation within a safe, sacred, and professionally held environment.</p>
+<p>A small group, a private home, and seven days dedicated entirely to your healing. Guided ceremony, the full 4-E process, clean food, and the space to do the work without the noise of everyday life. Two paths to attend, with and without medicine.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
@@ -39,9 +31,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:image {"id":1259,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 1259, 'full' ) ); ?>" alt="A hiker standing between towering Sedona red-rock spires" class="wp-image-1259"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><?php echo lumina_image_block( 'archway-sedona-2.webp', 'Towering Sedona red-rock spires framing a distant valley view' ); ?></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->

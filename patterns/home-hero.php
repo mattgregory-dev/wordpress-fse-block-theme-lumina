@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p>You know yourself better than anyone. You've read the books, attended the workshops, and sat with the hard questions. Yet when you look at your life, the same patterns are there, they quietly take hold — the ones you thought you had already moved beyond, and your suffering continues. Lumina Retreats are designed to help you see beyond those limitations, uncover what is truly driving them, and step into a deeper level of freedom, clarity, and authentic transformation.</p>
+<p>You know yourself better than anyone. You've read the books, attended the workshops, sat with the hard questions. And still, in the moments that matter, the same pattern takes over — the one you swore you were past. Lumina is a seven-day retreat in Sedona for breaking through what holds you back.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
@@ -39,9 +39,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:image {"id":571,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 571, 'full' ) ); ?>" alt="Sedona red-rock canyon framed by a cave opening" class="wp-image-571"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><?php echo lumina_image_block( 'sedona-cave-1.webp', 'Sedona red-rock canyon framed by a cave opening' ); ?></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
