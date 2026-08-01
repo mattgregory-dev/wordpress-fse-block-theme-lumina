@@ -34,7 +34,9 @@
       justify-content: center;
       width: 1.4rem;
       height: 1.4rem;
-      margin-top: 0.15em;
+      // Nudge down so the box centers against the first text line (em-relative,
+      // so it holds across font sizes: checklist-section large text + pricing).
+      margin-top: 0.36em;
       border: 1px solid var(--wp--preset--color--forest);
 
       // Soft alice-blue fill inside the ✓ box (matches the pricing "Most
