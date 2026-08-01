@@ -5,7 +5,7 @@ import {
 	RichText,
 	InspectorControls,
 } from '@wordpress/block-editor';
-import { PanelBody, SelectControl } from '@wordpress/components';
+import { PanelBody, SelectControl, ToggleControl } from '@wordpress/components';
 
 /**
  * Editor UI. Mirrors render.php's markup/classes so the theme stylesheet
@@ -18,12 +18,16 @@ import { PanelBody, SelectControl } from '@wordpress/components';
  * Below the subtitle is an optional InnerBlocks body (paragraphs) for centered-
  * header / left-body prose sections; it stays empty (and renders nothing) unless
  * paragraphs are added.
+ *
+ * The two balance toggles add `has-balanced-text` (text-wrap: balance) to the
+ * title / subtitle so short headings and ledes wrap into even lines. Applied
+ * live in the canvas so the effect is visible while editing.
  */
 
 const ALLOWED_BLOCKS = [ 'core/paragraph' ];
 
 export default function Edit( { attributes, setAttributes } ) {
-	const { eyebrow, title, subtitle, level } = attributes;
+	const { eyebrow, title, subtitle, level, titleBalance, subtitleBalance } = attributes;
 	const blockProps = useBlockProps();
 	const TitleTag = 'h1' === level ? 'h1' : 'h2';
 
@@ -50,6 +54,18 @@ export default function Edit( { attributes, setAttributes } ) {
 						onChange={ ( value ) => setAttributes( { level: value } ) }
 						__nextHasNoMarginBottom
 					/>
+					<ToggleControl
+						label={ __( 'Balance title lines', 'lumina-blocks' ) }
+						checked={ !! titleBalance }
+						onChange={ ( value ) => setAttributes( { titleBalance: value } ) }
+						__nextHasNoMarginBottom
+					/>
+					<ToggleControl
+						label={ __( 'Balance subtitle lines', 'lumina-blocks' ) }
+						checked={ !! subtitleBalance }
+						onChange={ ( value ) => setAttributes( { subtitleBalance: value } ) }
+						__nextHasNoMarginBottom
+					/>
 				</PanelBody>
 			</InspectorControls>
 
@@ -65,7 +81,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					/>
 					<RichText
 						tagName={ TitleTag }
-						className="intro-section__title"
+						className={ 'intro-section__title' + ( titleBalance ? ' has-balanced-text' : '' ) }
 						value={ title }
 						onChange={ ( value ) => setAttributes( { title: value } ) }
 						placeholder={ __( 'Title', 'lumina-blocks' ) }
@@ -73,7 +89,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					/>
 					<RichText
 						tagName="p"
-						className="intro-section__subtitle"
+						className={ 'intro-section__subtitle' + ( subtitleBalance ? ' has-balanced-text' : '' ) }
 						value={ subtitle }
 						onChange={ ( value ) => setAttributes( { subtitle: value } ) }
 						placeholder={ __( 'Subtitle (optional)', 'lumina-blocks' ) }

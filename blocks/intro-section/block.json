@@ -17,7 +17,9 @@
 		"eyebrow": { "type": "string", "default": "" },
 		"title": { "type": "string", "default": "" },
 		"subtitle": { "type": "string", "default": "" },
-		"level": { "type": "string", "default": "h2" }
+		"level": { "type": "string", "default": "h2" },
+		"titleBalance": { "type": "boolean", "default": false },
+		"subtitleBalance": { "type": "boolean", "default": false }
 	},
 	"styles": [
 		{ "name": "centered", "label": "Centered", "isDefault": true },

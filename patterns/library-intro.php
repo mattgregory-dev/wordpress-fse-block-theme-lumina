@@ -8,4 +8,4 @@
  * @package lumina-blocks
  */
 ?>
-<!-- wp:lumina-blocks/intro-section {"eyebrow":"Library","title":"The Lumina Library","subtitle":"Honest, grounded guides to the medicines and the work — written to inform, not to sell.","level":"h1"} /-->
+<!-- wp:lumina-blocks/intro-section {"eyebrow":"Library","title":"The Lumina Library","subtitle":"Honest, grounded guides to the medicines and the work — written to inform, not to sell.","level":"h1","subtitleBalance":true} /-->
