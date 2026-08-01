@@ -5,29 +5,19 @@ import {
 	InspectorControls,
 } from '@wordpress/block-editor';
 import { PanelBody, SelectControl } from '@wordpress/components';
-import { useSelect } from '@wordpress/data';
 
 /**
  * Editor UI. Mirrors render.php's markup/classes so the theme stylesheet
  * (loaded into the canvas via add_editor_style) styles the preview identically.
  *
- * Title source is keyed on `level` (matching render.php):
- *   - H1 → the block is the page hero, so the title is bound to the WP page
- *          title. The Title field is hidden; the canvas shows the live page
- *          title (falling back to a [Page title] placeholder while empty).
- *   - H2 → the title is a typed block attribute, edited inline as normal.
+ * The title is always a typed attribute, edited inline; `level` only chooses the
+ * heading tag (H1 for a page hero, H2 for a mid-page intro). No page-title
+ * binding — consistent with the other blocks.
  */
 export default function Edit( { attributes, setAttributes } ) {
 	const { eyebrow, title, subtitle, level } = attributes;
 	const blockProps = useBlockProps();
-	const isH1 = 'h1' === level;
-	const TitleTag = isH1 ? 'h1' : 'h2';
-
-	// Live (possibly unsaved) page title, for the bound-title preview in H1 mode.
-	const pageTitle = useSelect(
-		( select ) => select( 'core/editor' )?.getEditedPostAttribute( 'title' ),
-		[]
-	);
+	const TitleTag = 'h1' === level ? 'h1' : 'h2';
 
 	return (
 		<>
@@ -47,14 +37,6 @@ export default function Edit( { attributes, setAttributes } ) {
 						onChange={ ( value ) => setAttributes( { level: value } ) }
 						__nextHasNoMarginBottom
 					/>
-					{ isH1 && (
-						<p className="components-base-control__help">
-							{ __(
-								'Title uses the page title (set it in the Page panel).',
-								'lumina-blocks'
-							) }
-						</p>
-					) }
 				</PanelBody>
 			</InspectorControls>
 
@@ -68,20 +50,14 @@ export default function Edit( { attributes, setAttributes } ) {
 						placeholder={ __( 'Eyebrow (optional)', 'lumina-blocks' ) }
 						allowedFormats={ [] }
 					/>
-					{ isH1 ? (
-						<TitleTag className="intro-section__title">
-							{ pageTitle || __( '[Page title]', 'lumina-blocks' ) }
-						</TitleTag>
-					) : (
-						<RichText
-							tagName={ TitleTag }
-							className="intro-section__title"
-							value={ title }
-							onChange={ ( value ) => setAttributes( { title: value } ) }
-							placeholder={ __( 'Title', 'lumina-blocks' ) }
-							allowedFormats={ [] }
-						/>
-					) }
+					<RichText
+						tagName={ TitleTag }
+						className="intro-section__title"
+						value={ title }
+						onChange={ ( value ) => setAttributes( { title: value } ) }
+						placeholder={ __( 'Title', 'lumina-blocks' ) }
+						allowedFormats={ [] }
+					/>
 					<RichText
 						tagName="p"
 						className="intro-section__subtitle"
