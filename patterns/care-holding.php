@@ -3,23 +3,13 @@
  * Title: Care — How We Hold the Space
  * Slug: lumina-blocks/care-holding
  * Categories: text, featured
- * Description: Two-column support list for during the retreat.
+ * Description: Two-column support checklist for during the retreat.
  *
  * @package lumina-blocks
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","backgroundColor":"mist","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull has-mist-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">During the Retreat</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center">How We Hold the Space</h2>
-<!-- /wp:heading -->
-
-<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"},"blockGap":{"left":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"is-style-checklist","fontSize":"large"} -->
+<!-- wp:lumina-blocks/checklist-section {"align":"full","eyebrow":"During the Retreat","title":"How We Hold the Space"} -->
+<div class="checklist-section__lists"><!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"is-style-checklist","fontSize":"large"} -->
 <ul class="wp-block-list is-style-checklist has-large-font-size"><!-- wp:list-item -->
 <li>A small group — no more than twelve guests — so no one is lost in the crowd</li>
 <!-- /wp:list-item -->
@@ -31,11 +21,9 @@
 <!-- wp:list-item -->
 <li>Regular, personal check-ins with each guest</li>
 <!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:column -->
+<!-- /wp:list -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"is-style-checklist","fontSize":"large"} -->
+<!-- wp:list {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"is-style-checklist","fontSize":"large"} -->
 <ul class="wp-block-list is-style-checklist has-large-font-size"><!-- wp:list-item -->
 <li>Grounding and support always on hand if a moment becomes intense</li>
 <!-- /wp:list-item -->
@@ -48,6 +36,4 @@
 <li>A respectful, protected space held by people who've walked this path themselves</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></section>
-<!-- /wp:group -->
+<!-- /wp:lumina-blocks/checklist-section -->
