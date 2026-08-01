@@ -36,3 +36,16 @@ function theme_setup() {
 	add_editor_style( 'dist/assets/main.css' );
 }
 add_action( 'after_setup_theme', 'theme_setup' );
+
+/**
+ * Register the theme's block-pattern category. The Lumina starter patterns —
+ * one configured stamp per custom block — group under it in the inserter,
+ * separate from WordPress's core pattern categories.
+ */
+function lumina_register_pattern_categories() {
+	register_block_pattern_category(
+		'lumina-blocks',
+		array( 'label' => __( 'Lumina', 'lumina-blocks' ) )
+	);
+}
+add_action( 'init', 'lumina_register_pattern_categories' );
