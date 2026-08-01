@@ -8,20 +8,6 @@
  * @package lumina-blocks
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","backgroundColor":"mist","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained","contentSize":"760px"}} -->
-<section class="wp-block-group alignfull has-mist-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.15em"}},"fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size" style="text-transform:uppercase;letter-spacing:0.15em">Contact</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}}} -->
-<h1 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--20)">Get in Touch</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"align":"center","textColor":"muted","fontSize":"large"} -->
-<p class="has-text-align-center has-muted-color has-text-color has-large-font-size">Have a question, or want to talk with a real person before you apply? Send us a message and we'll get back to you. For anything time-sensitive, a call is fastest.</p>
-<!-- /wp:paragraph --></section>
-<!-- /wp:group -->
-
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"1080px"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"62%","className":"contact-form-col"} -->
