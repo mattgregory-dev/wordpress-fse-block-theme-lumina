@@ -6,20 +6,24 @@
  * tag (h1 for a page hero, h2 for a mid-page intro). Consistent with the other
  * blocks — no page-title binding. The (optional) eyebrow and subtitle come from
  * their attributes. An empty title renders no heading tag at all, so the
- * document outline never gets a stray empty <h1>/<h2>.
+ * document outline never gets a stray empty <h1>/<h2>. An optional inner-block
+ * body (paragraphs) renders below the subtitle; when it is empty, no wrapper is
+ * emitted, so attribute-only instances are byte-identical to before.
  *
  * @package lumina-blocks
  *
- * @var array $attributes Block attributes.
+ * @var array  $attributes Block attributes.
+ * @var string $content    Inner blocks markup (optional body), or ''.
  */
 
 $intro_level    = ( isset( $attributes['level'] ) && 'h1' === $attributes['level'] ) ? 'h1' : 'h2';
 $intro_eyebrow  = trim( $attributes['eyebrow'] ?? '' );
 $intro_subtitle = trim( $attributes['subtitle'] ?? '' );
 $intro_title    = trim( $attributes['title'] ?? '' );
+$intro_body     = trim( $content );
 
 // Nothing to show — don't emit an empty band.
-if ( '' === $intro_eyebrow && '' === $intro_title && '' === $intro_subtitle ) {
+if ( '' === $intro_eyebrow && '' === $intro_title && '' === $intro_subtitle && '' === $intro_body ) {
 	return '';
 }
 ?>
@@ -33,6 +37,9 @@ if ( '' === $intro_eyebrow && '' === $intro_title && '' === $intro_subtitle ) {
 		<?php endif; ?>
 		<?php if ( '' !== $intro_subtitle ) : ?>
 			<p class="intro-section__subtitle"><?php echo wp_kses_post( wptexturize( $intro_subtitle ) ); ?></p>
+		<?php endif; ?>
+		<?php if ( '' !== $intro_body ) : ?>
+			<div class="intro-section__body"><?php echo $content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Inner blocks, escaped by core. ?></div>
 		<?php endif; ?>
 	</div>
 </section>

@@ -1,6 +1,7 @@
 import { __ } from '@wordpress/i18n';
 import {
 	useBlockProps,
+	useInnerBlocksProps,
 	RichText,
 	InspectorControls,
 } from '@wordpress/block-editor';
@@ -13,11 +14,23 @@ import { PanelBody, SelectControl } from '@wordpress/components';
  * The title is always a typed attribute, edited inline; `level` only chooses the
  * heading tag (H1 for a page hero, H2 for a mid-page intro). No page-title
  * binding — consistent with the other blocks.
+ *
+ * Below the subtitle is an optional InnerBlocks body (paragraphs) for centered-
+ * header / left-body prose sections; it stays empty (and renders nothing) unless
+ * paragraphs are added.
  */
+
+const ALLOWED_BLOCKS = [ 'core/paragraph' ];
+
 export default function Edit( { attributes, setAttributes } ) {
 	const { eyebrow, title, subtitle, level } = attributes;
 	const blockProps = useBlockProps();
 	const TitleTag = 'h1' === level ? 'h1' : 'h2';
+
+	const innerBlocksProps = useInnerBlocksProps(
+		{ className: 'intro-section__body' },
+		{ allowedBlocks: ALLOWED_BLOCKS, template: [], templateLock: false }
+	);
 
 	return (
 		<>
@@ -66,6 +79,7 @@ export default function Edit( { attributes, setAttributes } ) {
 						placeholder={ __( 'Subtitle (optional)', 'lumina-blocks' ) }
 						allowedFormats={ [ 'core/bold', 'core/italic' ] }
 					/>
+					<div { ...innerBlocksProps } />
 				</div>
 			</section>
 		</>

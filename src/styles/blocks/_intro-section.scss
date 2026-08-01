@@ -43,6 +43,18 @@
     font-size: var(--wp--preset--font-size--large);
   }
 
+  // Optional inner-block body — left-aligned prose at body size, so a centered
+  // header can sit above left-reading paragraphs (e.g. "Two Halves of the Same
+  // Work"). text-align is reset because the band centers by default; the width
+  // is already the 760px inner measure. One block-gap step between paragraphs.
+  .intro-section__body {
+    margin-block-start: var(--wp--preset--spacing--50);
+    text-align: left;
+
+    > * { margin-block: 0; }
+    > * + * { margin-block-start: var(--wp--preset--spacing--50); }
+  }
+
   // Standard look — left-aligned, muted subtitle.
   &.is-style-standard {
     text-align: left;

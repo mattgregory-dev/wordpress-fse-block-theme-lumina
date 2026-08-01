@@ -1,14 +1,21 @@
 import { registerBlockType } from '@wordpress/blocks';
+import { InnerBlocks } from '@wordpress/block-editor';
 
 import metadata from './block.json';
 import Edit from './edit.js';
 
 /**
- * Intro Section is a dynamic block: the markup lives in render.php (in git),
- * the content lives in block attributes (in the database). `save` returns null
- * so nothing is serialized to post_content except the attributes.
+ * Intro Section is a dynamic block: the eyebrow, heading and subtitle live in
+ * block attributes (rendered by render.php), while an optional body of
+ * paragraphs is authored as inner blocks. `save` persists only those inner
+ * blocks; render.php places them below the subtitle and omits the wrapper
+ * entirely when there are none — so attribute-only instances are unchanged.
+ *
+ * The original block had no inner blocks (save returned null); the deprecation
+ * lets those existing self-closing instances keep validating cleanly.
  */
 registerBlockType( metadata.name, {
 	edit: Edit,
-	save: () => null,
+	save: () => <InnerBlocks.Content />,
+	deprecated: [ { save: () => null } ],
 } );
