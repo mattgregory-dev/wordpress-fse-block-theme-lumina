@@ -11,6 +11,10 @@
   background-color: var(--wp--preset--color--sage);
   text-align: center;
 
+  // Sit flush against the section above — drop the layout's block-gap over the
+  // band. The `.alignfull` compound outranks WP's `:root :where(…) > *` rule.
+  &.alignfull { margin-block-start: 0; }
+
   .cta-band__inner {
     box-sizing: content-box;
     max-width: 720px;
