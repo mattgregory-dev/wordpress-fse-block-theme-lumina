@@ -19,15 +19,45 @@ import { PanelBody, SelectControl, ToggleControl } from '@wordpress/components';
  * header / left-body prose sections; it stays empty (and renders nothing) unless
  * paragraphs are added.
  *
- * The two balance toggles add `has-balanced-text` (text-wrap: balance) to the
- * title / subtitle so short headings and ledes wrap into even lines. Applied
- * live in the canvas so the effect is visible while editing.
+ * The per-element balance toggle (text-wrap: balance) and width preset (measure
+ * cap) are applied to the title / subtitle classes live in the canvas, so the
+ * preview shows the true final rag. Both default to off / "default", emitting no
+ * class.
  */
 
 const ALLOWED_BLOCKS = [ 'core/paragraph' ];
 
+const WIDTH_OPTIONS = [
+	{ label: __( 'Default', 'lumina-blocks' ), value: 'default' },
+	{ label: __( 'Narrow', 'lumina-blocks' ), value: 'narrow' },
+	{ label: __( 'Narrower', 'lumina-blocks' ), value: 'narrower' },
+	{ label: __( 'Narrowest', 'lumina-blocks' ), value: 'narrowest' },
+];
+
+// Build an element's class list from its balance + width settings. `prefix` is
+// 'title' or 'subtitle'.
+function elementClass( base, balance, width, prefix ) {
+	let cls = base;
+	if ( balance ) {
+		cls += ' has-balanced-text';
+	}
+	if ( 'default' !== width ) {
+		cls += ` has-${ prefix }-width-${ width }`;
+	}
+	return cls;
+}
+
 export default function Edit( { attributes, setAttributes } ) {
-	const { eyebrow, title, subtitle, level, titleBalance, subtitleBalance } = attributes;
+	const {
+		eyebrow,
+		title,
+		subtitle,
+		level,
+		titleBalance,
+		subtitleBalance,
+		titleWidth,
+		subtitleWidth,
+	} = attributes;
 	const blockProps = useBlockProps();
 	const TitleTag = 'h1' === level ? 'h1' : 'h2';
 
@@ -54,16 +84,32 @@ export default function Edit( { attributes, setAttributes } ) {
 						onChange={ ( value ) => setAttributes( { level: value } ) }
 						__nextHasNoMarginBottom
 					/>
+
 					<ToggleControl
 						label={ __( 'Balance title lines', 'lumina-blocks' ) }
 						checked={ !! titleBalance }
 						onChange={ ( value ) => setAttributes( { titleBalance: value } ) }
 						__nextHasNoMarginBottom
 					/>
+					<SelectControl
+						label={ __( 'Title width', 'lumina-blocks' ) }
+						value={ titleWidth }
+						options={ WIDTH_OPTIONS }
+						onChange={ ( value ) => setAttributes( { titleWidth: value } ) }
+						__nextHasNoMarginBottom
+					/>
+
 					<ToggleControl
 						label={ __( 'Balance subtitle lines', 'lumina-blocks' ) }
 						checked={ !! subtitleBalance }
 						onChange={ ( value ) => setAttributes( { subtitleBalance: value } ) }
+						__nextHasNoMarginBottom
+					/>
+					<SelectControl
+						label={ __( 'Subtitle width', 'lumina-blocks' ) }
+						value={ subtitleWidth }
+						options={ WIDTH_OPTIONS }
+						onChange={ ( value ) => setAttributes( { subtitleWidth: value } ) }
 						__nextHasNoMarginBottom
 					/>
 				</PanelBody>
@@ -81,7 +127,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					/>
 					<RichText
 						tagName={ TitleTag }
-						className={ 'intro-section__title' + ( titleBalance ? ' has-balanced-text' : '' ) }
+						className={ elementClass( 'intro-section__title', titleBalance, titleWidth, 'title' ) }
 						value={ title }
 						onChange={ ( value ) => setAttributes( { title: value } ) }
 						placeholder={ __( 'Title', 'lumina-blocks' ) }
@@ -89,7 +135,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					/>
 					<RichText
 						tagName="p"
-						className={ 'intro-section__subtitle' + ( subtitleBalance ? ' has-balanced-text' : '' ) }
+						className={ elementClass( 'intro-section__subtitle', subtitleBalance, subtitleWidth, 'subtitle' ) }
 						value={ subtitle }
 						onChange={ ( value ) => setAttributes( { subtitle: value } ) }
 						placeholder={ __( 'Subtitle (optional)', 'lumina-blocks' ) }

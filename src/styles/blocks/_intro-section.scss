@@ -12,6 +12,14 @@
   text-align: center;
   background-color: var(--wp--preset--color--mist);
 
+  // Measure presets for the title/subtitle width controls — fixed px (so caps
+  // never drift with the fluid h1/h2 clamp), one shared scale for both elements,
+  // stepping down from the 760px inner. A narrowest title and subtitle line up
+  // at the same measure.
+  --intro-width-narrow: 660px;
+  --intro-width-narrower: 560px;
+  --intro-width-narrowest: 460px;
+
   // 760px text column centered in the full-bleed section, matching the page
   // body's contentSize so the band lines up with the content below it. The
   // inner is content-box, so max-width IS the text width; padding-inline just
@@ -43,6 +51,19 @@
     font-size: var(--wp--preset--font-size--large);
   }
 
+  // Optional per-instance measure caps (title/subtitle width controls). Capped
+  // elements center within the band by default (the Standard variation keeps
+  // them left).
+  .has-title-width-narrow,
+  .has-subtitle-width-narrow    { max-width: var(--intro-width-narrow); }
+  .has-title-width-narrower,
+  .has-subtitle-width-narrower  { max-width: var(--intro-width-narrower); }
+  .has-title-width-narrowest,
+  .has-subtitle-width-narrowest { max-width: var(--intro-width-narrowest); }
+
+  [class*="has-title-width-"],
+  [class*="has-subtitle-width-"] { margin-inline: auto; }
+
   // Optional inner-block body — left-aligned prose at body size, so a centered
   // header can sit above left-reading paragraphs (e.g. "Two Halves of the Same
   // Work"). text-align is reset because the band centers by default; the width
@@ -62,6 +83,10 @@
     .intro-section__subtitle {
       color: var(--wp--preset--color--muted);
     }
+
+    // Capped elements stay flush-left — no centering drift.
+    [class*="has-title-width-"],
+    [class*="has-subtitle-width-"] { margin-inline: 0; }
   }
 
   // Content sits flush inside the band's padding: whichever element is first

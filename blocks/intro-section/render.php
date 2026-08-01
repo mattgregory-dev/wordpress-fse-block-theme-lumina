@@ -22,10 +22,25 @@ $intro_subtitle = trim( $attributes['subtitle'] ?? '' );
 $intro_title    = trim( $attributes['title'] ?? '' );
 $intro_body     = trim( $content );
 
-// Optional line-balancing (text-wrap: balance) per element; off by default so
-// existing instances stay byte-identical.
-$intro_title_class    = 'intro-section__title' . ( ! empty( $attributes['titleBalance'] ) ? ' has-balanced-text' : '' );
-$intro_subtitle_class = 'intro-section__subtitle' . ( ! empty( $attributes['subtitleBalance'] ) ? ' has-balanced-text' : '' );
+// Optional line-balancing (text-wrap: balance) and measure caps per element;
+// both off/"default" by default so existing instances stay byte-identical.
+$intro_widths = array( 'narrow', 'narrower', 'narrowest' );
+
+$intro_title_class = 'intro-section__title';
+if ( ! empty( $attributes['titleBalance'] ) ) {
+	$intro_title_class .= ' has-balanced-text';
+}
+if ( in_array( $attributes['titleWidth'] ?? 'default', $intro_widths, true ) ) {
+	$intro_title_class .= ' has-title-width-' . $attributes['titleWidth'];
+}
+
+$intro_subtitle_class = 'intro-section__subtitle';
+if ( ! empty( $attributes['subtitleBalance'] ) ) {
+	$intro_subtitle_class .= ' has-balanced-text';
+}
+if ( in_array( $attributes['subtitleWidth'] ?? 'default', $intro_widths, true ) ) {
+	$intro_subtitle_class .= ' has-subtitle-width-' . $attributes['subtitleWidth'];
+}
 
 // Nothing to show — don't emit an empty band.
 if ( '' === $intro_eyebrow && '' === $intro_title && '' === $intro_subtitle && '' === $intro_body ) {
