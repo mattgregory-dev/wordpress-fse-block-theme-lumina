@@ -3,7 +3,7 @@
  * Bio — server render. Person-scoped sibling of Spotlight.
  *
  * Two-column split: a text column (role → name → inner-block biography) beside a
- * portrait. `imagePosition` (default left) and `verticalAlignment` (default top)
+ * portrait. `imagePosition` (default left) and `verticalAlignment` (default center)
  * express themselves as classes; the layout lives in _bio.scss. DOM order is
  * always text-then-media; the image side is flipped in CSS.
  *
@@ -20,7 +20,7 @@
 $bio_eyebrow  = trim( $attributes['eyebrow'] ?? '' );
 $bio_title    = trim( $attributes['title'] ?? '' );
 $bio_position = ( isset( $attributes['imagePosition'] ) && 'right' === $attributes['imagePosition'] ) ? 'right' : 'left';
-$bio_valign   = ( isset( $attributes['verticalAlignment'] ) && 'center' === $attributes['verticalAlignment'] ) ? 'center' : 'top';
+$bio_valign   = ( isset( $attributes['verticalAlignment'] ) && 'top' === $attributes['verticalAlignment'] ) ? 'top' : 'center';
 $bio_image_id = isset( $attributes['imageId'] ) ? (int) $attributes['imageId'] : 0;
 $bio_alt      = trim( $attributes['imageAlt'] ?? '' );
 

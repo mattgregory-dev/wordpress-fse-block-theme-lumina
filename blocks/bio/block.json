@@ -18,7 +18,7 @@
 		"imageId": { "type": "number" },
 		"imageAlt": { "type": "string", "default": "" },
 		"imagePosition": { "type": "string", "default": "left" },
-		"verticalAlignment": { "type": "string", "default": "top" },
+		"verticalAlignment": { "type": "string", "default": "center" },
 		"eyebrow": { "type": "string", "default": "" },
 		"title": { "type": "string", "default": "" }
 	},
