@@ -7,7 +7,7 @@ import {
 	MediaPlaceholder,
 	MediaReplaceFlow,
 } from '@wordpress/block-editor';
-import { PanelBody, SelectControl, TextControl } from '@wordpress/components';
+import { PanelBody, SelectControl, TextControl, Button } from '@wordpress/components';
 import { useSelect } from '@wordpress/data';
 
 /**
@@ -109,6 +109,13 @@ export default function Edit( { attributes, setAttributes } ) {
 							onChange={ ( value ) => setAttributes( { imageAlt: value } ) }
 							__nextHasNoMarginBottom
 						/>
+						<Button
+							variant="link"
+							isDestructive
+							onClick={ () => setAttributes( { imageId: undefined, imageAlt: '' } ) }
+						>
+							{ __( 'Remove portrait', 'lumina-blocks' ) }
+						</Button>
 					</PanelBody>
 				) }
 			</InspectorControls>

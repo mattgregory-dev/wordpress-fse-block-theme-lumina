@@ -7,7 +7,7 @@ import {
 	MediaPlaceholder,
 	MediaReplaceFlow,
 } from '@wordpress/block-editor';
-import { PanelBody, SelectControl, TextControl } from '@wordpress/components';
+import { PanelBody, SelectControl, TextControl, Button } from '@wordpress/components';
 import { useSelect } from '@wordpress/data';
 
 /**
@@ -65,14 +65,20 @@ export default function Edit( { attributes, setAttributes } ) {
 		<>
 			<InspectorControls>
 				<PanelBody title={ __( 'Layout', 'lumina-blocks' ) }>
+					{ /* Framed around the always-present content column, not the optional
+					     image. Stored as `imagePosition` (the image side), so the control
+					     works in the inverse: content-left ⇄ image-right. */ }
 					<SelectControl
-						label={ __( 'Image position', 'lumina-blocks' ) }
-						value={ imagePosition }
+						label={ __( 'Content position', 'lumina-blocks' ) }
+						help={ __( 'Which side the text column sits on. An image, if set, takes the other side.', 'lumina-blocks' ) }
+						value={ 'left' === imagePosition ? 'right' : 'left' }
 						options={ [
-							{ label: __( 'Right', 'lumina-blocks' ), value: 'right' },
 							{ label: __( 'Left', 'lumina-blocks' ), value: 'left' },
+							{ label: __( 'Right', 'lumina-blocks' ), value: 'right' },
 						] }
-						onChange={ ( value ) => setAttributes( { imagePosition: value } ) }
+						onChange={ ( value ) =>
+							setAttributes( { imagePosition: 'left' === value ? 'right' : 'left' } )
+						}
 						__nextHasNoMarginBottom
 					/>
 					<SelectControl
@@ -121,6 +127,13 @@ export default function Edit( { attributes, setAttributes } ) {
 							onChange={ ( value ) => setAttributes( { imageAlt: value } ) }
 							__nextHasNoMarginBottom
 						/>
+						<Button
+							variant="link"
+							isDestructive
+							onClick={ () => setAttributes( { imageId: undefined, imageAlt: '' } ) }
+						>
+							{ __( 'Remove image', 'lumina-blocks' ) }
+						</Button>
 					</PanelBody>
 				) }
 			</InspectorControls>
