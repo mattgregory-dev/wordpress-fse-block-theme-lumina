@@ -1,6 +1,6 @@
 <?php
 /**
- * Front-end asset loading (Tailwind-free).
+ * Front-end asset loading.
  *
  * Loads the compiled SCSS bundle (dist/assets/main.css) and the theme JS
  * bundle (dist/main.js), or the Vite dev server when CUSTOM_WP_VITE_DEV is on.

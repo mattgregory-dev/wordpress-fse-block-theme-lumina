@@ -17,6 +17,10 @@ first.
   in transients. After adding or changing a `patterns/*.php` file, flush them:
   `wp transient delete --all` (or SQL:
   `DELETE FROM wp_options WHERE option_name LIKE '_transient_%' OR option_name LIKE '_site_transient_%';`).
+  Adding or **removing** a pattern file also needs the theme's cached file list
+  cleared before the new set is re-scanned — `wp_clean_themes_cache()` is the
+  targeted call (it drops the `wp_theme_files_patterns-*` transient). The re-scan
+  happens on the *next* request, so clear, then reload to verify.
 - **`theme.json` changes don't show up.** The Site Editor writes user
   customizations to a `wp_global_styles` custom post, and **that DB copy
   overrides the file**. Reset via **Styles → Revert to theme defaults**, or
@@ -117,3 +121,21 @@ sidesteps this by emitting **canonical** block markup — `src` + `alt` +
 `wp-image-<id>` class, with the resolved ID written into the block comment too —
 and letting WordPress core add `srcset`/`sizes` at render. Portable across
 installs *and* editor-consistent.
+
+---
+
+## 5. Editing `blocks/` does nothing until you rebuild
+
+**Symptom:** a change to a custom block's `edit.js`, `render.php`, or `block.json`
+has no effect — the editor and front end keep showing the old behavior.
+
+**Root cause:** WordPress registers each block from `build/<name>`, not
+`blocks/<name>` (`inc/blocks.php`). `@wordpress/scripts` compiles the JSX and
+**copies** `render.php`/`block.json` into `build/`. Until that build runs, the
+registered copy is stale — so source edits are invisible.
+
+**Fix:** `npm run build:blocks` (or `npm run start:blocks` to watch) after any
+edit under `blocks/`. Note the two independent pipelines: `src/` → `dist/` (Vite)
+and `blocks/` → `build/` (wp-scripts); both outputs are git-ignored, and a source
+change is not live until *its* pipeline runs. The full `npm run build` runs Vite,
+the SCSS compile, and the block build in sequence.

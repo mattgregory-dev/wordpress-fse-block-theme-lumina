@@ -16,9 +16,10 @@ can't express it.
    (per-block-type defaults). This is ~90% of the design and the single source
    of truth; it emits `--wp--preset--*` custom properties consumed everywhere
    else.
-2. **Block markup / patterns** — per-instance layout and styling, set as block
-   attributes. These serialize to inline styles, which is canonical FSE (the
-   editor writes the same markup) — not a code smell. See `patterns/`.
+2. **Block markup / patterns / custom blocks** — per-instance layout and styling,
+   set as block attributes. These serialize to inline styles, which is canonical
+   FSE (the editor writes the same markup) — not a code smell. See `patterns/`
+   and the custom section blocks in `blocks/`.
 3. **Block style variations** (`register_block_style`) — reusable custom looks
    applied via an `is-style-*` class (e.g. `is-style-checklist`).
 4. **`src/style.scss`** — an escape hatch **only**: pseudo-elements, `:has()`,
@@ -51,25 +52,56 @@ lumina-blocks/
 ├── style.css            # Theme header (required by WordPress)
 ├── theme.json           # Design source of truth (v3)
 ├── functions.php        # Loads the inc/ modules
-├── templates/           # Block templates: index, single, page, archive,
-│                        #   search, 404, front-page, page-*, ...
-├── parts/               # header.html, footer.html (template parts)
-├── patterns/            # Page sections as auto-registered block patterns
-├── inc/                 # Self-contained PHP modules (enqueue, images, a11y, …)
+├── templates/           # Block templates: page, home, index, single, archive,
+│                        #   search, 404, page-full-width
+├── parts/               # header, footer, library-sidebar (template parts)
+├── patterns/            # Reusable section starters (one "Lumina" category)
+├── blocks/              # Custom block source (edit.js/render.php/block.json);
+│                        #   each compiled by @wordpress/scripts → build/
+├── build/               # Compiled blocks (git-ignored; what WordPress registers)
+├── inc/                 # Self-contained PHP modules (enqueue, images, blocks, …)
 ├── src/                 # Front-end source (compiled by Vite → dist/)
 │   ├── main.js          #   JS entry — imports behavior modules from scripts/
 │   ├── style.scss       #   SCSS entry (escape-hatch layer) — imports styles/
 │   ├── scripts/         #   JS behavior modules (e.g. scroll-top.js)
-│   └── styles/          #   SCSS partials (_buttons, _forms, _faq, _logo, …)
+│   └── styles/          #   SCSS partials (_buttons, _forms, _hero, blocks/, …)
 ├── scripts/             # Node build tooling (block-audit.js) — not shipped
-├── dist/                # Compiled CSS/JS (git-ignored; build output)
+├── dist/                # Compiled theme CSS/JS (git-ignored; build output)
 └── assets/              # Self-hosted fonts, images
 ```
 
-Pages are delivered as **block templates that compose block patterns**. A page
-like `/retreat/` is `templates/page-retreat.html` referencing a series of
-`lumina-blocks/retreat-*` patterns, each a self-contained section in
-`patterns/`.
+Pages are delivered as **content in the database, rendered through a shared
+template.** A page's sections are authored in the editor — from the custom blocks
+in `blocks/` and the starter patterns in `patterns/` — and stored in
+`post_content`. `templates/page.html` renders that content inside the
+header/footer chrome (`page-full-width.html` is the alternate). The starters in
+`patterns/` are reusable *starting points* an author inserts and edits, **not**
+page definitions composed by templates. The library index (`home.html` /
+`archive.html`) is the exception that still composes structure directly, including
+the `library-sidebar` template part.
+
+## Custom blocks
+
+Six section-level blocks live in `blocks/` — `hero`, `spotlight`, `bio`,
+`intro-section`, `cta-band`, and `checklist-section`. They exist so a section's
+*structure* stays in git while its *content* lives in the database: each is a
+**dynamic block** where `edit.js` provides the editor UI, `render.php` emits the
+front-end markup from block attributes, and inner blocks hold the freeform body
+(paragraphs, buttons, lists).
+
+- **Source → build.** `@wordpress/scripts` compiles `blocks/<name>/` (block.json,
+  edit.js, index.js, render.php) into `build/<name>/`. WordPress registers each
+  block from `build/` in `inc/blocks.php`, **not** from the source — so an edit
+  under `blocks/` (including `render.php`, which is *copied* into `build/`) has no
+  effect until the block build runs. See [BUILD.md](BUILD.md#custom-blocks-buildblocks)
+  and [GOTCHAS.md](GOTCHAS.md#5-editing-blocks-does-nothing-until-you-rebuild).
+- **Attributes in the DB, markup in git.** Typed fields (eyebrow, heading, image
+  ID, overlay color, …) serialize into the block comment; `render.php` reads them
+  and never trusts raw input in an attribute context — e.g. the hero overlay
+  color is validated against a hex/rgb pattern before it reaches a `style`.
+- **Editor parity.** `edit.js` mirrors `render.php`'s classes and markup, so the
+  canvas — with the compiled bundle loaded via `add_editor_style` — previews the
+  same as the front end. Per-block styling lives in `src/styles/blocks/`.
 
 ## Images: portable, deploy-safe references
 

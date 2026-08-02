@@ -20,11 +20,15 @@ templates** — with no page builder and no starter-theme scaffolding left behin
   hatch* — not the primary layer.
 - **True Full Site Editing.** Block templates + template parts render real
   `<header>`/`<main>`/`<footer>` landmarks and stay editable in the Site Editor.
-- **Content as auto-registered block patterns.** Every page section is a
-  self-contained pattern in `patterns/`; templates compose them into pages.
+- **Custom dynamic blocks.** Section blocks (`hero`, `spotlight`, `bio`,
+  `intro-section`, `cta-band`, `checklist-section`) built with
+  `@wordpress/scripts` — editor UI in `edit.js`, front-end markup in `render.php`,
+  content in the database. Source in `blocks/`, compiled to `build/`.
+- **Reusable starter patterns.** Section starters in `patterns/`, auto-registered
+  under one "Lumina" category, that authors insert and edit — page content lives
+  in the database, not hardcoded in templates.
 - **A hand-built Vite + SCSS pipeline** — autoprefixed, minified, HMR in dev —
-  chosen over a bloated boilerplate or Tailwind (which fights the editor's
-  compose-in-place model).
+  chosen over a bloated starter boilerplate.
 - **Tooling that catches invisible bugs.** stylelint plus a custom
   **block-grammar linter** that stack-parses block comments to catch the
   unclosed-block error *before* the editor throws "unexpected or invalid
@@ -38,8 +42,9 @@ templates** — with no page builder and no starter-theme scaffolding left behin
 
 ## Tech stack
 
-WordPress (Full Site Editing) · `theme.json` v3 · PHP · SCSS · Vite ·
-JavaScript (ES modules) · stylelint / eslint / phpcs
+WordPress (Full Site Editing) · `theme.json` v3 · custom blocks
+(`@wordpress/scripts`) · PHP · SCSS · Vite · JavaScript (ES modules) ·
+stylelint / eslint / phpcs
 
 ## Quick start
 
