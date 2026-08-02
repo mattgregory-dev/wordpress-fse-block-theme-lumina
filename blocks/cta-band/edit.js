@@ -25,7 +25,10 @@ export default function Edit( { attributes, setAttributes } ) {
 	const { eyebrow, title, level } = attributes;
 	const TitleTag = 'h3' === level ? 'h3' : 'h2';
 
-	const blockProps = useBlockProps();
+	// `lumina-band` mirrors render.php so the flush-to-footer rule (a trailing
+	// band cancels main's bottom padding) also applies in the Site Editor, where
+	// the footer renders in the canvas.
+	const blockProps = useBlockProps( { className: 'lumina-band' } );
 
 	const innerBlocksProps = useInnerBlocksProps(
 		{ className: 'cta-band__body' },
