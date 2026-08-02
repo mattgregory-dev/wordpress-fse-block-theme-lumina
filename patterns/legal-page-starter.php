@@ -2,7 +2,7 @@
 /**
  * Title: Legal Page Starter
  * Slug: lumina-blocks/legal-page-starter
- * Categories: text
+ * Categories: lumina-blocks
  * Description: Full starting point for a legal/prose page — an Intro Section hero (Standard, H1) plus a long-form body with real section headings and lorem-ipsum placeholder copy. Insert once, then replace the placeholder text. Links point to # and the address is fictitious.
  *
  * @package lumina-blocks
