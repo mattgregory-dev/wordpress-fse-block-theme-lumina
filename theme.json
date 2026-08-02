@@ -188,7 +188,8 @@
   },
   "templateParts": [
     { "name": "header", "title": "Header", "area": "header" },
-    { "name": "footer", "title": "Footer", "area": "footer" }
+    { "name": "footer", "title": "Footer", "area": "footer" },
+    { "name": "library-sidebar", "title": "Library Sidebar", "area": "uncategorized" }
   ],
   "customTemplates": [
     { "name": "page-full-width", "title": "Full Width Page", "postTypes": ["page"] }
