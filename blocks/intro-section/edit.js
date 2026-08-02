@@ -58,7 +58,10 @@ export default function Edit( { attributes, setAttributes } ) {
 		titleWidth,
 		subtitleWidth,
 	} = attributes;
-	const blockProps = useBlockProps();
+	// Mirror render.php, which hardcodes `alignfull`: the intro band is always
+	// full-bleed by design (no align support/toolbar), so break it out in the
+	// canvas too instead of letting the layout constrain it to content width.
+	const blockProps = useBlockProps( { className: 'alignfull' } );
 	const TitleTag = 'h1' === level ? 'h1' : 'h2';
 
 	const innerBlocksProps = useInnerBlocksProps(
