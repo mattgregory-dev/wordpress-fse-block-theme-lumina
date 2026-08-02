@@ -47,7 +47,7 @@ if ( '' === $intro_eyebrow && '' === $intro_title && '' === $intro_subtitle && '
 	return '';
 }
 ?>
-<section <?php echo get_block_wrapper_attributes( array( 'class' => 'alignfull' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped by core. ?>>
+<section <?php echo get_block_wrapper_attributes( array( 'class' => 'alignfull lumina-band' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped by core. ?>>
 	<div class="intro-section__inner">
 		<?php if ( '' !== $intro_eyebrow ) : ?>
 			<p class="intro-section__eyebrow"><?php echo esc_html( wptexturize( $intro_eyebrow ) ); ?></p>

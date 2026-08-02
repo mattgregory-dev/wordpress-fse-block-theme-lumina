@@ -19,7 +19,7 @@ $cl_eyebrow = trim( $attributes['eyebrow'] ?? '' );
 $cl_title   = trim( $attributes['title'] ?? '' );
 $cl_level   = ( isset( $attributes['level'] ) && 'h3' === $attributes['level'] ) ? 'h3' : 'h2';
 ?>
-<section <?php echo get_block_wrapper_attributes(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped by core. ?>>
+<section <?php echo get_block_wrapper_attributes( array( 'class' => 'lumina-band' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped by core. ?>>
 	<div class="checklist-section__inner">
 		<?php if ( '' !== $cl_eyebrow ) : ?>
 			<p class="checklist-section__eyebrow"><?php echo esc_html( wptexturize( $cl_eyebrow ) ); ?></p>

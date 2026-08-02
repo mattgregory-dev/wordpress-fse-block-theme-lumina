@@ -20,7 +20,7 @@ $cta_eyebrow = trim( $attributes['eyebrow'] ?? '' );
 $cta_title   = trim( $attributes['title'] ?? '' );
 $cta_level   = ( isset( $attributes['level'] ) && 'h3' === $attributes['level'] ) ? 'h3' : 'h2';
 ?>
-<section <?php echo get_block_wrapper_attributes(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped by core. ?>>
+<section <?php echo get_block_wrapper_attributes( array( 'class' => 'lumina-band' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped by core. ?>>
 	<div class="cta-band__inner">
 		<?php if ( '' !== $cta_eyebrow ) : ?>
 			<p class="cta-band__eyebrow"><?php echo esc_html( wptexturize( $cta_eyebrow ) ); ?></p>

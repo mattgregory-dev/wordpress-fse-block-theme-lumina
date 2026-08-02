@@ -15,6 +15,9 @@
 // reduced-motion. See src/styles/_accessibility.scss.
 @use "./styles/accessibility";
 
+// Page main spacing + trailing full-width band flush-to-footer. See _layout.scss.
+@use "./styles/layout";
+
 // Button style variations (is-style-secondary). The default button lives in
 // theme.json; this only styles the custom variations. See _buttons.scss.
 @use "./styles/buttons";
