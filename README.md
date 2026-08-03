@@ -5,7 +5,7 @@ a retreat center in Sedona, Arizona. Built the modern block-native way — **des
 tokens in `theme.json`, page sections as block patterns, pages as block
 templates** — with no page builder and no starter-theme scaffolding left behind.
 
-![Lumina Blocks — homepage](screenshot.jpg)
+![Lumina Blocks — homepage](assets/images/lumina-blocks.jpg)
 
 > Production theme, built and maintained end-to-end. Client-approved for use as a
 > portfolio piece; reference available on request.
